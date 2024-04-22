@@ -1,0 +1,34 @@
+We can also try to make a specialized harvester that only downloads some key properties (dct:title, dct:description, dcat:theme, dcat:keyword, dct:spatial, dct:temporal, dct:publisher) and only for records having these properties available in English. This would reduce the size and facilitate our research experiments. 
+https://data.europa.eu/data/sparql?locale=en
+
+
+PREFIX dct:<http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+SELECT (count(distinct ?s) as ?value) WHERE 
+{ 
+    ?s a dcat:Dataset  
+    ; dct:language <http://publications.europa.eu/resource/authority/language/ENG>
+    ; dct:title ?title
+    ; dct:description ?description .
+    FILTER(lang(?title)='en') .
+    FILTER(lang(?description)='en') .
+}
+LIMIT 10
+
+#Another Querry
+
+PREFIX dct:<http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+SELECT (count(distinct ?s) as ?value) WHERE 
+{ 
+    ?s a dcat:Dataset  
+    ; dct:language <http://publications.europa.eu/resource/authority/language/ENG>
+    ; dct:title ?title
+    ; dct:description ?description
+    ; dct:theme ?theme .
+    FILTER(lang(?title)='en') .
+    FILTER(lang(?description)='en') .
+}
+LIMIT 10
