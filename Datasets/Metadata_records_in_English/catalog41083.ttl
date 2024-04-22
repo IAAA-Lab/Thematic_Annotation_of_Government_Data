@@ -1,0 +1,2263 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix schemas: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/88u/dataset/068f3d24-4653-4cb0-938e-5c51c25c5e69~~1> a dcat:Dataset ;
+    dcterms:description "Compilation of the European Quaternary marine geology (section of Germany). The map consists of data at highest available spatial resolution, map scale („multi-resolution“-concept) and data completeness vary depending on the project partner (as of 2019 April). Project partners are the national geological services of the participating countries. According to the Data Specification on Geology (D2.8.II.4_v3.0) the content of the geological map is stored in a INSPIRE-compliant GML file: EMODnet-DE_Quaternary_GeologicUnit.gml contains the geologic units. The GML file together with a Readme.txt file are provided in ZIP format (EMODnet-DE_Quaternary-INSPIRE.zip). The Readme.text file (German/English) contains detailed information on the GML file content. Data transformation was proceeded by using the INSPIRE Solution Pack for FME according to the INSPIRE requirements."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>53.10 3.30</gml:lowerCorner><gml:upperCorner>56.00 14.75</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((3.30 56.00,14.75 56.00,14.75 53.10,3.30 53.10,3.30 56.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "INSPIRE: EMODnet-DE - Offshore Geology - Quaternary (EMODnet-DE Quaternary)"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/Geologie/EmodnetDE_Quaternary-INSPIRE/gml/EMODnet-DE_Quaternary.zip> ;
+    dcat:keyword "Deutschland"@en,
+        "EGDI"@en,
+        "Geology"@en,
+        "Germany"@en,
+        "Stratigraphie"@en,
+        "inspireidentifiziert"@en,
+        "opendata"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/1c2f4c1e-dd35-48a3-adf7-305c9e255ff7~~1> a dcat:Dataset ;
+    dcterms:description "This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2003, belonging to the data series of the ‘mb_lf’ data products (0.15-0.35 Hz). The temporal resolution of 15 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>-90.00 -180.00</gml:lowerCorner><gml:upperCorner>90.00 180.00</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((-180.00 90.00,180.00 90.00,180.00 -90.00,-180.00 -90.00,-180.00 90.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "Infrasound data products of certified IMS stations: mb_lf_2003"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/geophysik/Infrasound_mb_lf_product/mb_lf_2003/netCDF/infrasound_mb_lf_product_2003.zip> ;
+    dcat:keyword "CTBT"@en,
+        "Geology"@en,
+        "IMS"@en,
+        "Infraschall"@en,
+        "International Monitoring System"@en,
+        "Kernwaffenteststopp"@en,
+        "Mikrobarome"@en,
+        "atmosphere"@en,
+        "explosion"@en,
+        "fireball"@en,
+        "geophysics"@en,
+        "infrasound"@en,
+        "microbaroms"@en,
+        "opendata"@en,
+        "volcano"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/27c45de2-4b33-4ea3-bd41-805236dd6231~~1> a dcat:Dataset ;
+    dcterms:description "This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2008, belonging to the data series of the ‘maw’ data products (0.02-0.07 Hz). The temporal resolution of 30 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>-90.00 -180.00</gml:lowerCorner><gml:upperCorner>90.00 180.00</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((-180.00 90.00,180.00 90.00,180.00 -90.00,-180.00 -90.00,-180.00 90.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "Infrasound data products of certified IMS stations: maw_2008"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/geophysik/Infrasound_maw_product/maw_2008/netCDF/infrasound_maw_product_2008.zip> ;
+    dcat:keyword "CTBT"@en,
+        "Geology"@en,
+        "IMS"@en,
+        "Infraschall"@en,
+        "International Monitoring System"@en,
+        "Kernwaffenteststopp"@en,
+        "atmosphere"@en,
+        "fireball"@en,
+        "geophysics"@en,
+        "infrasound"@en,
+        "mountain-associated waves (maw)"@en,
+        "opendata"@en,
+        "volcano"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/40545927-9685-4959-8ae4-da256bbc35f2~~1> a dcat:Dataset ;
+    dcterms:description "This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2015, belonging to the data series of the ‘hf’ data products (1-3 Hz). The temporal resolution of 5 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>-90.00 -180.00</gml:lowerCorner><gml:upperCorner>90.00 180.00</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((-180.00 90.00,180.00 90.00,180.00 -90.00,-180.00 -90.00,-180.00 90.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "Infrasound data products of certified IMS stations: hf_2015"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/geophysik/Infrasound_hf_product/hf_2015/netCDF/infrasound_hf_product_2015.zip> ;
+    dcat:keyword "CTBT"@en,
+        "Geology"@en,
+        "IMS"@en,
+        "Infraschall"@en,
+        "International Monitoring System"@en,
+        "Kernwaffenteststopp"@en,
+        "atmosphere"@en,
+        "explosion"@en,
+        "geophysics"@en,
+        "infrasound"@en,
+        "opendata"@en,
+        "surf"@en,
+        "volcano"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/774602f3-3ce5-48cd-b5d0-d71d48806b22~~1> a dcat:Dataset ;
+    dcterms:description "This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2003, belonging to the data series of the ‘mb_hf’ data products (0.45-0.65 Hz). The temporal resolution of 15 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>-90.00 -180.00</gml:lowerCorner><gml:upperCorner>90.00 180.00</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((-180.00 90.00,180.00 90.00,180.00 -90.00,-180.00 -90.00,-180.00 90.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "Infrasound data products of certified IMS stations: mb_hf_2003"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/geophysik/Infrasound_mb_hf_product/mb_hf_2003/netCDF/infrasound_mb_hf_product_2003.zip> ;
+    dcat:keyword "CTBT"@en,
+        "Geology"@en,
+        "IMS"@en,
+        "Infraschall"@en,
+        "International Monitoring System"@en,
+        "Kernwaffenteststopp"@en,
+        "Mikrobarome"@en,
+        "atmosphere"@en,
+        "explosion"@en,
+        "fireball"@en,
+        "geophysics"@en,
+        "infrasound"@en,
+        "microbaroms"@en,
+        "opendata"@en,
+        "volcano"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/81e4dc86-1e40-41b2-8460-bd0d38dbde81~~1> a dcat:Dataset ;
+    dcterms:description "This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2017, belonging to the data series of the ‘maw’ data products (0.02-0.07 Hz). The temporal resolution of 30 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>-90.00 -180.00</gml:lowerCorner><gml:upperCorner>90.00 180.00</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((-180.00 90.00,180.00 90.00,180.00 -90.00,-180.00 -90.00,-180.00 90.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "Infrasound data products of certified IMS stations: maw_2017"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/geophysik/Infrasound_maw_product/maw_2017/netCDF/infrasound_maw_product_2017.zip> ;
+    dcat:keyword "CTBT"@en,
+        "Geology"@en,
+        "IMS"@en,
+        "Infraschall"@en,
+        "International Monitoring System"@en,
+        "Kernwaffenteststopp"@en,
+        "atmosphere"@en,
+        "fireball"@en,
+        "geophysics"@en,
+        "infrasound"@en,
+        "mountain-associated waves (maw)"@en,
+        "opendata"@en,
+        "volcano"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/881c035f-7734-47d7-9e65-2144f1b35cbe~~1> a dcat:Dataset ;
+    dcterms:description "The German Regional Seismic Network (GRSN) consists of seismological stations equipped with 3-component broadband seismometer and digital data aquisition system. The recorded data are directly transmitted to the data center at BGR Hannover and made available to the public near realtime. The GML file together with a Readme.txt file are provided in ZIP format (GRSN-INSPIRE.zip). The Readme.text file (German/English) contains detailed information on the GML file content. Data transformation was proceeded by using the INSPIRE Solution Pack for FME according to the INSPIRE requirements."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>47.00 5.00</gml:lowerCorner><gml:upperCorner>55.00 15.00</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((5.00 55.00,15.00 55.00,15.00 47.00,5.00 47.00,5.00 55.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "INSPIRE: German Regional Seismic Network (GRSN)"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/geophysik/GRSN-INSPIRE/gml/GRSN-INSPIRE.zip> ;
+    dcat:keyword "Deutschland und angrenzende Gebiete"@en,
+        "Epizentrum"@en,
+        "Erdbeben"@en,
+        "Geology"@en,
+        "Germany and adjacent areas"@en,
+        "Induzierte Seismizität"@en,
+        "Seismologie"@en,
+        "Tektonik"@en,
+        "earthquake"@en,
+        "epicentre"@en,
+        "induced seismicity"@en,
+        "inspireidentifiziert"@en,
+        "opendata"@en,
+        "seismology"@en,
+        "tectonics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/b338c66e-ad9d-434b-9212-c932020c6a44-1> a dcat:Dataset ;
+    dcterms:description """The KOR250 (INSPIRE) in the scale of 1:250,000 shows occurrences and deposits of mineral resources in Germany, which lie close to the Earth’s surface, i.e. can be mined in open-pits, quarries or near-surface mines. These mineral resources include industrial minerals, aggregates, peat, lignite, oil shales, and natural brines. The map is derived from the KOR250, the digital successor of the map series KOR200 „Map of Near-Surface Deposits of the Federal Republic of Germany 1:200,000”, which has been published since 1984. The KOR200 and KOR250 have been published by the Federal Institute for Geosciences and Natural Resources together with the State Geological Surveys of the federal states on behalf of the Federal Ministry for Economic Affairs and Energy. Primary purpose of the KOR250 is to display Germany’s potential of domestic raw materials in a comparable way. The explanations given in the printed booklets accompanying the KOR200 are not available in the digital KOR250. In the KOR250 besides the defined deposits and differently coloured areas of raw materials, "active mines" (= operations) at time of publication or "focal points of several active mines" are marked with one symbol each. These mines are not included in the KOR250 (INSPIRE) as often the headquarters of the mining company and not the mining site itself is displayed as well as in many regions the dataset is outdated. As the map sheets of the KOR200 have been generated over more than three decades the timeliness of data is extremely different. For more detail, the current large-scale raw material maps of the Federal State Geological Surveys should always be consulted. The point data displayed in KOR250 (INSPIRE) indicate very small, but worth mentioning prospects of certain raw materials. 
+According to the Data Specification on Mineral Resources (D2.8.III.21) the content of the map is stored in two INSPIRE-compliant GML files:
+KOR250_EarthResource_polygon.gml comprises the mineral resources as polygons.
+KOR250_EarthResource_point.gml comprises the mineral resources as points.
+The GML files together with a Readme.txt file are provided in ZIP format (KOR250-INSPIRE.zip). The Readme.text file (German/English) contains detailed information on the GML files content. Data transformation was proceeded by using the INSPIRE Solution Pack for FME according to the INSPIRE requirements.
+Notes:
+It should be noted that according to the INSPIRE commodity code list, most magmatites and metamorphites were assigned to the two values "granite" and "basalt". From a geological point of view and with regard to its origin, this assignment is often misleading. For more information on the outcropping rock of a specific raw material occurrence, the German name from the original KOR250 was mapped to the attribute name of the class GeologicFeature.
+Link KOR200: https://www.bgr.bund.de/EN/Themen/Min_rohstoffe/Projekte/Rohstoffverfuegbarkeit_laufend_en/KOR_200_en.html"""@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>47.25 5.50</gml:lowerCorner><gml:upperCorner>55.00 15.50</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((5.50 55.00,15.50 55.00,15.50 47.25,5.50 47.25,5.50 55.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "INSPIRE: Map of Near-Surface Deposits of the Federal Republic of Germany 1:250,000 (KOR250)"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/Rohstoffe/KOR250-INSPIRE/gml/KOR250-INSPIRE.zip> ;
+    dcat:keyword "Deutschland"@en,
+        "Germany"@en,
+        "Karte"@en,
+        "Mineral Resources"@en,
+        "Mineralien"@en,
+        "Mineralvorkommen"@en,
+        "Ressource"@en,
+        "Rohstoff"@en,
+        "Rohstoffindustrie"@en,
+        "Sand"@en,
+        "Ton"@en,
+        "Torf"@en,
+        "Wirtschaft"@en,
+        "inspireidentifiziert"@en,
+        "opendata"@en,
+        "raw material"@en,
+        "ökonomisch"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<http://data.europa.eu/88u/dataset/bc130a19-5ac4-400d-94c4-f917f5a0330a~~1> a dcat:Dataset ;
+    dcterms:description "This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2007, belonging to the data series of the ‘hf’ data products (1-3 Hz). The temporal resolution of 5 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>-90.00 -180.00</gml:lowerCorner><gml:upperCorner>90.00 180.00</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((-180.00 90.00,180.00 90.00,180.00 -90.00,-180.00 -90.00,-180.00 90.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "Infrasound data products of certified IMS stations: hf_2007"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/geophysik/Infrasound_hf_product/hf_2007/netCDF/infrasound_hf_product_2007.zip> ;
+    dcat:keyword "CTBT"@en,
+        "Geology"@en,
+        "IMS"@en,
+        "Infraschall"@en,
+        "International Monitoring System"@en,
+        "Kernwaffenteststopp"@en,
+        "atmosphere"@en,
+        "explosion"@en,
+        "geophysics"@en,
+        "infrasound"@en,
+        "opendata"@en,
+        "surf"@en,
+        "volcano"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/c9be7b15-853f-4d62-a538-660f3644e16d~~1> a dcat:Dataset ;
+    dcterms:description "This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2016, belonging to the data series of the ‘hf’ data products (1-3 Hz). The temporal resolution of 5 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>-90.00 -180.00</gml:lowerCorner><gml:upperCorner>90.00 180.00</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((-180.00 90.00,180.00 90.00,180.00 -90.00,-180.00 -90.00,-180.00 90.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "Infrasound data products of certified IMS stations: hf_2016"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/geophysik/Infrasound_hf_product/hf_2016/netCDF/infrasound_hf_product_2016.zip> ;
+    dcat:keyword "CTBT"@en,
+        "Geology"@en,
+        "IMS"@en,
+        "Infraschall"@en,
+        "International Monitoring System"@en,
+        "Kernwaffenteststopp"@en,
+        "atmosphere"@en,
+        "explosion"@en,
+        "geophysics"@en,
+        "infrasound"@en,
+        "opendata"@en,
+        "surf"@en,
+        "volcano"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/d0135838-e83a-4d54-a3b2-1cc8d5694985~~1> a dcat:Dataset ;
+    dcterms:description "This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2018, belonging to the data series of the ‘maw’ data products (0.02-0.07 Hz). The temporal resolution of 30 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>-90.00 -180.00</gml:lowerCorner><gml:upperCorner>90.00 180.00</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((-180.00 90.00,180.00 90.00,180.00 -90.00,-180.00 -90.00,-180.00 90.00))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "Infrasound data products of certified IMS stations: maw_2018"@en ;
+    dcat:accessURL <https://download.bgr.de/bgr/geophysik/Infrasound_maw_product/maw_2018/netCDF/infrasound_maw_product_2018.zip> ;
+    dcat:keyword "CTBT"@en,
+        "Geology"@en,
+        "IMS"@en,
+        "Infraschall"@en,
+        "International Monitoring System"@en,
+        "Kernwaffenteststopp"@en,
+        "atmosphere"@en,
+        "fireball"@en,
+        "geophysics"@en,
+        "infrasound"@en,
+        "mountain-associated waves (maw)"@en,
+        "opendata"@en,
+        "volcano"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-2nzb-6wu9> a dcat:Dataset ;
+    dcterms:description "Measurements: Balearic Islands Air Quality Control Station (Estació Ciutadella - Menorca) - 2020"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Measurements: Balearic Islands Air Quality Control Station (Estació Ciutadella - Menorca) - 2020"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/2nzb-6wu9/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/2nzb-6wu9/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/2nzb-6wu9/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/2nzb-6wu9/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-36nh-55xs> a dcat:Dataset ;
+    dcterms:description "Protected Natural Area"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Protected Natural Area"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/36nh-55xs/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/36nh-55xs/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/36nh-55xs/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/36nh-55xs/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-4b5w-7nd7> a dcat:Dataset ;
+    dcterms:description "Measurements: Balearic Islands Air Quality Control Station (Estació Ciutadella - Menorca)"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Measurements: Balearic Islands Air Quality Control Station (Estació Ciutadella - Menorca)"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/4b5w-7nd7/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/4b5w-7nd7/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/4b5w-7nd7/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/4b5w-7nd7/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-5bwy-imvu> a dcat:Dataset ;
+    dcterms:description "Public Buildings Balearic Islands Government"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Public Buildings Balearic Islands Government"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/5bwy-imvu/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/5bwy-imvu/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/5bwy-imvu/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/5bwy-imvu/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-6cu3-jdga> a dcat:Dataset ;
+    dcterms:description "Measurements: Balearic Islands Air Quality Control Station (Can Misses Station - Eivissa)"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Measurements: Balearic Islands Air Quality Control Station (Can Misses Station - Eivissa)"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/6cu3-jdga/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/6cu3-jdga/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/6cu3-jdga/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/6cu3-jdga/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-6ej3-kivz> a dcat:Dataset ;
+    dcterms:description "Dimensions"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Dimensions"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/6ej3-kivz/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/6ej3-kivz/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/6ej3-kivz/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/6ej3-kivz/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-6zxy-uwym> a dcat:Dataset ;
+    dcterms:description "Procedures Ministry of Health and Consumer Affairs"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Procedures Ministry of Health and Consumer Affairs"@en ;
+    dcat:accessURL <https://www.caib.es/govern/tramitesrss.do?coduo%3D11%26lang%3Dca%26tipo%3Drss_2.0> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-bwd5-9z99> a dcat:Dataset ;
+    dcterms:description "General and Local Labor Calendar Balearic Islands 2021"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "General and Local Labor Calendar Balearic Islands 2021"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/bwd5-9z99/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/bwd5-9z99/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/bwd5-9z99/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/bwd5-9z99/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-f2hg-sgdb> a dcat:Dataset ;
+    dcterms:description "Singular Trees Balearic Islands"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Singular Trees Balearic Islands"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/f2hg-sgdb/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/f2hg-sgdb/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/f2hg-sgdb/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/f2hg-sgdb/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-f4pb-d352> a dcat:Dataset ;
+    dcterms:description "News RSS feed Ministry of Mobility and Housing"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "News RSS feed Ministry of Mobility and Housing"@en ;
+    dcat:accessURL <https://www.caib.es/govern/organigrama/arearss.do?coduo%3D3828370%26lang%3Dca%26tipo%3Drss_2.0> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-frnu-ychr> a dcat:Dataset ;
+    dcterms:description "Balearic Islands Health Service's Approved Expenses Budget Items (2019)"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Balearic Islands Health Service's Approved Expenses Budget Items (2019)"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/frnu-ychr/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/frnu-ychr/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/frnu-ychr/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/frnu-ychr/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-fuqc-7isg> a dcat:Dataset ;
+    dcterms:description "Captures supply population (art 87 PHIB)"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Captures supply population (art 87 PHIB)"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/fuqc-7isg/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/fuqc-7isg/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/fuqc-7isg/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/fuqc-7isg/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-gq3r-wqyi> a dcat:Dataset ;
+    dcterms:description "Measurements Air Quality Control Station Balearic Islands (Dalt Vila Station - Eivissa) - 2021"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Measurements Air Quality Control Station Balearic Islands (Dalt Vila Station - Eivissa) - 2021"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/gq3r-wqyi/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/gq3r-wqyi/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/gq3r-wqyi/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/gq3r-wqyi/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-i3jy-z3c9> a dcat:Dataset ;
+    dcterms:description "Instrumental Public Sector Entities Balearic Islands Government"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Instrumental Public Sector Entities Balearic Islands Government"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/i3jy-z3c9/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/i3jy-z3c9/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/i3jy-z3c9/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/i3jy-z3c9/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-igqc-5but> a dcat:Dataset ;
+    dcterms:description "Measurements: Balearic Islands Air Quality Control Station (Dalt Vila Station - Eivissa) - 2020"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Measurements: Balearic Islands Air Quality Control Station (Dalt Vila Station - Eivissa) - 2020"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/igqc-5but/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/igqc-5but/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/igqc-5but/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/igqc-5but/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-ink4-sdzb> a dcat:Dataset ;
+    dcterms:description "Balearic Islands Tax Agency's Approved Incomes Budget Items (2020)"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Balearic Islands Tax Agency's Approved Incomes Budget Items (2020)"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/ink4-sdzb/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/ink4-sdzb/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/ink4-sdzb/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/ink4-sdzb/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-itph-fq2b> a dcat:Dataset ;
+    dcterms:description "Measurements: Balearic Islands Air Quality Control Station (Cases de Menut Station - Mallorca)"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Measurements: Balearic Islands Air Quality Control Station (Cases de Menut Station - Mallorca)"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/itph-fq2b/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/itph-fq2b/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/itph-fq2b/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/itph-fq2b/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-m337-xpee> a dcat:Dataset ;
+    dcterms:description "Balearic Islands Tax Agency's Liquidated Incomes Budget Items (2019) (Provisional)"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Balearic Islands Tax Agency's Liquidated Incomes Budget Items (2019)"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/m337-xpee/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/m337-xpee/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/m337-xpee/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/m337-xpee/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-m3g3-tz27> a dcat:Dataset ;
+    dcterms:description "Health area"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Health area"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/m3g3-tz27/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/m3g3-tz27/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/m3g3-tz27/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/m3g3-tz27/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-nggq-imik> a dcat:Dataset ;
+    dcterms:description "IDEIB_SIG.POLIND_Pol_Indus_IDI"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Polígons Industrials IDI (2009)"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/nggq-imik/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/nggq-imik/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/nggq-imik/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/nggq-imik/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-t84h-sihg> a dcat:Dataset ;
+    dcterms:description "Associations registered in the Service of Legal Entities of the Balearic Islands"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Balearic Islands Associations"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/t84h-sihg/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/t84h-sihg/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/t84h-sihg/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/t84h-sihg/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-ti3w-csq3> a dcat:Dataset ;
+    dcterms:description "Measurements: Balearic Islands Air Quality Control Station (Port de Maó Station- Menorca) - 2020"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Measurements: Balearic Islands Air Quality Control Station (Port de Maó Station- Menorca) - 2020"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/ti3w-csq3/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/ti3w-csq3/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/ti3w-csq3/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/ti3w-csq3/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-trna-teqj> a dcat:Dataset ;
+    dcterms:description "Conjunt de dades en què es registren els tràmits que ofereix la Conselleria de Transició Energètica, Sectors Productius i Memòria Democràtica"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Tràmits Conselleria de Transició Energètica, Sectors Productius i Memòria Democràtica"@en ;
+    dcat:accessURL <https://www.caib.es/govern/tramitesrss.do?coduo%3D6%26lang%3Dca%26tipo%3Drss_2.0> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-x4nn-4ikr> a dcat:Dataset ;
+    dcterms:description "Zones Alt Risc incendis forestals Illes Balears 2014 (ZAR)"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Zones Alt Risc incendis forestals Illes Balears 2014 (ZAR)"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/x4nn-4ikr/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/x4nn-4ikr/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/x4nn-4ikr/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/x4nn-4ikr/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-xspa-85sp> a dcat:Dataset ;
+    dcterms:description "Mines perimeter authorized"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Mines perimeter authorized"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/xspa-85sp/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/xspa-85sp/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/xspa-85sp/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/xspa-85sp/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-catalegdades-caib-cat-d-xyis-mze5> a dcat:Dataset ;
+    dcterms:description "Transformation Agrarian Societies (TAS) Balearic Islands"@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears> ;
+    dcterms:title "Transformation Agrarian Societies (TAS) Balearic Islands"@en ;
+    dcat:accessURL <https://catalegdades.caib.cat/api/views/xyis-mze5/rows.csv?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/xyis-mze5/rows.json?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/xyis-mze5/rows.rdf?accessType%3DDOWNLOAD>,
+        <https://catalegdades.caib.cat/api/views/xyis-mze5/rows.xml?accessType%3DDOWNLOAD> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    foaf:name "Gobierno de las Islas Baleares" .
+
+<http://data.europa.eu/88u/dataset/https-dane-gov-pl-pl-dataset-897-wykaz-przedsiebiorcow-wykonujacych-dziaalnosc-gospodarcza-w-zakresie-transportowania-paliw-1> a dcat:Dataset ;
+    dcterms:description """<p>Wykaz przedsiębiorców wykonujących działalność gospodarczą w zakresie transportowania paliw - stan na 19 stycznia 2018 r. - zgodnie z art. 12 ust. 2 pkt 1-3 ustawy z dnia 25 sierpnia 2006 r. o systemie monitorowania i kontrolowania jakości paliw (Dz. U. z 2016, poz. 1928) Prezes UOKiK, jako Zarządzający systemem, prowadzi wykazy przedsiębiorców wykonujących działalność gospodarczą w zakresie wytwarzania, transportowania oraz magazynowania paliw, stacji paliwowych oraz stacji zakładowych, hurtowni paliw, przedsiębiorców wykonujących działalność gospodarczą w zakresie obrotu paliwami stałymi, właścicieli i użytkowników wybranych flot oraz rolników wytwarzających biopaliwa ciekłe na własny użytek.</p>
+"""@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            dcterms:identifier <http://sws.geonames.org/798544/> ] ;
+    dcterms:title "Wykaz przedsiębiorców wykonujących działalność gospodarczą w zakresie transportowania paliw"@en ;
+    dcat:accessURL <https://dane.gov.pl/pl/dataset/897/resource/1007> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+    foaf:name "Urząd Ochrony Konkurencji i Konsumentów"@en,
+        "Urząd Ochrony Konkurencji i Konsumentów"@pl .
+
+<http://data.europa.eu/88u/dataset/metadata-tmap-dataunit-schleswigholstein-level2-0000000806> a dcat:Dataset ;
+    dcterms:description """TMAP parameter group: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The trilateral Monitoring and Assessment Program was established in 1994 and contains 28 chemical, biological, geological and common parameter. Analyses enable an assessment on the trilateral agreed ecological targets. Results are published as Quality status report regularly. Investigations are done with regard to the following issues of concern primarily (Kellermann, A. et al. 1994):
+
+- Effects of climate change on the morphology,
+- Effects of pollutant inputs (nutrients and contaminants) on processes, species and communities,
+- Effects of fisheries on species and communities, 
+- Effects of recreational activities on species,
+- Effects of agricultural utilization on salt marsh communities. TMAP Parameter Gruppe: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+Das 1994 zum Schutz des Wattenmeeres eingeführte Trilateral Monitoring and Assessment Program (TMAP, deutsch: Trilaterales Monitoring und Bewertungsprogramm) umfasst ein Monitoring von insgesamt 28 chemischen, biologischen, geologischen und allgemeinen Parametern. Eine Auswertung der Monitoringdaten ermöglicht eine Beurteilung des Zustandes im Wattenmeer vor dem Hintergrund der trilateral vereinbarten ökologischen Entwicklungsziele. Die Ergebnisse werden etwa alle fünf Jahre im Qualitätszustandsbericht veröffentlicht. Dabei stehen Erhebungen zu folgenden Komplexen im Vordergrund (Kellermann, A. et al. 1994):
+
+- Folgen möglicher Klimaänderungen auf Hydrologie, Morphologie und Habitate des Wattenmeeres,
+- Auswirkungen von Nähr- und Schadstoffeinträgen auf geochemische und biologische Prozesse sowie auf Arten und Lebensgemeinschaften des Wattenmeeres,
+- den Auswirkungen der Muschel- und Garnelenfischerei auf Arten und Lebensgemeinschaften, 
+- Auswirkungen von Freizeitaktivitäten auf Arten (vor allem Vögel und marine Säuger) sowie
+- Auswirkungen landwirtschaftlicher Nutzung auf die Lebensgemeinschaften der Salzwiesen."""@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>54.76 8.73</gml:lowerCorner><gml:upperCorner>54.76 8.73</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((8.73 54.76,8.73 54.76,8.73 54.76,8.73 54.76,8.73 54.76))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "TMAP-SH: Counts of migratory birds (MIGB) - Station: Amrum Kniepsand Nord (IA31) - Parameter: count of species per volume or area"@en ;
+    dcat:accessURL <http://www.waddensea-secretariat.org/TMAP/Data-Unit/Data.html> ;
+    dcat:keyword "Oceanographic geographical features"@en,
+        "Schleswig-Holsteinisches Wattenmeer"@en,
+        "count of species per volume or area"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "LKN, Nationalparkverwaltung schleswig-holsteinisches Wattenmeer" .
+
+<http://data.europa.eu/88u/dataset/metadata-tmap-dataunit-schleswigholstein-level2-0000000909> a dcat:Dataset ;
+    dcterms:description """TMAP parameter group: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The trilateral Monitoring and Assessment Program was established in 1994 and contains 28 chemical, biological, geological and common parameter. Analyses enable an assessment on the trilateral agreed ecological targets. Results are published as Quality status report regularly. Investigations are done with regard to the following issues of concern primarily (Kellermann, A. et al. 1994):
+
+- Effects of climate change on the morphology,
+- Effects of pollutant inputs (nutrients and contaminants) on processes, species and communities,
+- Effects of fisheries on species and communities, 
+- Effects of recreational activities on species,
+- Effects of agricultural utilization on salt marsh communities. TMAP Parameter Gruppe: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+Das 1994 zum Schutz des Wattenmeeres eingeführte Trilateral Monitoring and Assessment Program (TMAP, deutsch: Trilaterales Monitoring und Bewertungsprogramm) umfasst ein Monitoring von insgesamt 28 chemischen, biologischen, geologischen und allgemeinen Parametern. Eine Auswertung der Monitoringdaten ermöglicht eine Beurteilung des Zustandes im Wattenmeer vor dem Hintergrund der trilateral vereinbarten ökologischen Entwicklungsziele. Die Ergebnisse werden etwa alle fünf Jahre im Qualitätszustandsbericht veröffentlicht. Dabei stehen Erhebungen zu folgenden Komplexen im Vordergrund (Kellermann, A. et al. 1994):
+
+- Folgen möglicher Klimaänderungen auf Hydrologie, Morphologie und Habitate des Wattenmeeres,
+- Auswirkungen von Nähr- und Schadstoffeinträgen auf geochemische und biologische Prozesse sowie auf Arten und Lebensgemeinschaften des Wattenmeeres,
+- den Auswirkungen der Muschel- und Garnelenfischerei auf Arten und Lebensgemeinschaften, 
+- Auswirkungen von Freizeitaktivitäten auf Arten (vor allem Vögel und marine Säuger) sowie
+- Auswirkungen landwirtschaftlicher Nutzung auf die Lebensgemeinschaften der Salzwiesen."""@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>54.39 8.66</gml:lowerCorner><gml:upperCorner>54.39 8.66</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((8.66 54.39,8.66 54.39,8.66 54.39,8.66 54.39,8.66 54.39))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "TMAP-SH: Counts of migratory birds (MIGB) - Station: Japsand Nord (SN14) - Parameter: count of species per volume or area"@en ;
+    dcat:accessURL <http://www.waddensea-secretariat.org/TMAP/Data-Unit/Data.html> ;
+    dcat:keyword "Oceanographic geographical features"@en,
+        "Schleswig-Holsteinisches Wattenmeer"@en,
+        "count of species per volume or area"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "LKN, Nationalparkverwaltung schleswig-holsteinisches Wattenmeer" .
+
+<http://data.europa.eu/88u/dataset/metadata-tmap-dataunit-schleswigholstein-level2-0000000955> a dcat:Dataset ;
+    dcterms:description """TMAP parameter group: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The trilateral Monitoring and Assessment Program was established in 1994 and contains 28 chemical, biological, geological and common parameter. Analyses enable an assessment on the trilateral agreed ecological targets. Results are published as Quality status report regularly. Investigations are done with regard to the following issues of concern primarily (Kellermann, A. et al. 1994):
+
+- Effects of climate change on the morphology,
+- Effects of pollutant inputs (nutrients and contaminants) on processes, species and communities,
+- Effects of fisheries on species and communities, 
+- Effects of recreational activities on species,
+- Effects of agricultural utilization on salt marsh communities. TMAP Parameter Gruppe: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+Das 1994 zum Schutz des Wattenmeeres eingeführte Trilateral Monitoring and Assessment Program (TMAP, deutsch: Trilaterales Monitoring und Bewertungsprogramm) umfasst ein Monitoring von insgesamt 28 chemischen, biologischen, geologischen und allgemeinen Parametern. Eine Auswertung der Monitoringdaten ermöglicht eine Beurteilung des Zustandes im Wattenmeer vor dem Hintergrund der trilateral vereinbarten ökologischen Entwicklungsziele. Die Ergebnisse werden etwa alle fünf Jahre im Qualitätszustandsbericht veröffentlicht. Dabei stehen Erhebungen zu folgenden Komplexen im Vordergrund (Kellermann, A. et al. 1994):
+
+- Folgen möglicher Klimaänderungen auf Hydrologie, Morphologie und Habitate des Wattenmeeres,
+- Auswirkungen von Nähr- und Schadstoffeinträgen auf geochemische und biologische Prozesse sowie auf Arten und Lebensgemeinschaften des Wattenmeeres,
+- den Auswirkungen der Muschel- und Garnelenfischerei auf Arten und Lebensgemeinschaften, 
+- Auswirkungen von Freizeitaktivitäten auf Arten (vor allem Vögel und marine Säuger) sowie
+- Auswirkungen landwirtschaftlicher Nutzung auf die Lebensgemeinschaften der Salzwiesen."""@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            locn:geometry "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>54.09 8.96</gml:lowerCorner><gml:upperCorner>54.09 8.96</gml:upperCorner></gml:Envelope>"^^<http://replacement.io/ont/geosparql#gmlLiteral>,
+                "POLYGON((8.96 54.09,8.96 54.09,8.96 54.09,8.96 54.09,8.96 54.09))"^^<http://replacement.io/ont/geosparql#wktLiteral> ] ;
+    dcterms:title "TMAP-SH: Counts of migratory birds (MIGB) - Station: H.-Haien-K.-S außen (VN41) - Parameter: count of species per volume or area"@en ;
+    dcat:accessURL <http://www.waddensea-secretariat.org/TMAP/Data-Unit/Data.html> ;
+    dcat:keyword "Oceanographic geographical features"@en,
+        "Schleswig-Holsteinisches Wattenmeer"@en,
+        "Vorländer Nordfriesland"@en,
+        "count of species per volume or area"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "LKN, Nationalparkverwaltung schleswig-holsteinisches Wattenmeer" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p274-serie-def-p06-06004> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Población residente por provincias según tamaño del hogar y nacionalidad de los miembros del hogar al que pertenece. Continuous Household Survey"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/A-Coruna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Alava>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Albacete>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Alicante>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Almeria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Avila>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Badajoz>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Barcelona>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Burgos>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Caceres>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cadiz>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Castellon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ciudad-Real>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cordoba>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cuenca>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Girona>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Granada>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Guadalajara>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Guipuzcoa>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Huelva>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Huesca>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Jaen>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Las-Palmas>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Lleida>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Lugo>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Malaga>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ourense>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Palencia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Pontevedra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Salamanca>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Santa-Cruz-Tenerife>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Segovia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Sevilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Soria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Tarragona>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Teruel>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Toledo>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Valencia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Valladolid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Vizcaya>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Zamora>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Zaragoza> ;
+    dcterms:title "Población residente por provincias según tamaño del hogar y nacionalidad de los miembros del hogar al que pertenece (API identifier: /t20/p274/serie/def/p06/l0/06004.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p274/serie/def/p06/06004.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p274/serie/def/p06/%26file%3D06004.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p274/serie/def/p06/06004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p274/serie/def/p06/06004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p274/serie/def/p06/06004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p274/serie/def/p06/06004.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p274/serie/def/p06/06004.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p274/serie/def/p06/06004.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p274/serie/def/p06/06004.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p274/serie/def/p06/06004.xlsx> ;
+    dcat:keyword "Continuous Household Survey"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p274-serie-def-p08-02003> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Número de viviendas principales por comunidades y ciudades autónomas según año de construcción y régimen de tenencia. Continuous Household Survey"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Número de viviendas principales por comunidades y ciudades autónomas según año de construcción y régimen de tenencia (API identifier: /t20/p274/serie/def/p08/l0/02003.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p274/serie/def/p08/02003.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p274/serie/def/p08/%26file%3D02003.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p274/serie/def/p08/02003.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p274/serie/def/p08/02003.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p274/serie/def/p08/02003.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p274/serie/def/p08/02003.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p274/serie/def/p08/02003.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p274/serie/def/p08/02003.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p274/serie/def/p08/02003.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p274/serie/def/p08/02003.xlsx> ;
+    dcat:keyword "Continuous Household Survey"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p274-serie-prov-p01-01009> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Número de hogares según el tipo de hogar y el tamaño del hogar. National. Continuous Household Survey"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Número de hogares según el tipo de hogar y el tamaño del hogar (API identifier: /t20/p274/serie/prov/p01/l0/01009.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p274/serie/prov/p01/01009.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p274/serie/prov/p01/%26file%3D01009.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p274/serie/prov/p01/01009.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p274/serie/prov/p01/01009.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p274/serie/prov/p01/01009.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p274/serie/prov/p01/01009.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p274/serie/prov/p01/01009.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p274/serie/prov/p01/01009.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p274/serie/prov/p01/01009.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p274/serie/prov/p01/01009.xlsx> ;
+    dcat:keyword "Continuous Household Survey"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p278-p02-2018-2033-pob-02002> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Nacimientos de madre residente en España, por sexo, generación de la madre y año. Comunidades y Ciudades Autónomas. Population Projections"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Nacimientos de madre residente en España, por sexo, generación de la madre y año (API identifier: /t20/p278/p02/2018-2033/pob/l0/02002.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/28895?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D28895>,
+        <https://www.ine.es/jaxi/files/tpx/csv/28895.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/28895.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/28895.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/28895.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/28895.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/28895.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/28895.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/28895.xlsx> ;
+    dcat:keyword "Demographic projections indicators and compilations"@en,
+        "Demography and population"@en,
+        "Population Projections"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p278-p03-2018-2033-idb-03004> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Nacidos por cada mil defunciones según año. Provincias. Population Projections"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/A-Coruna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Alava>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Albacete>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Alicante>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Almeria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Avila>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Badajoz>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Barcelona>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Burgos>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Caceres>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cadiz>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Castellon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ciudad-Real>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cordoba>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cuenca>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Girona>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Granada>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Guadalajara>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Guipuzcoa>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Huelva>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Huesca>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Jaen>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Las-Palmas>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Lleida>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Lugo>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Malaga>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ourense>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Palencia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Pontevedra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Salamanca>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Santa-Cruz-Tenerife>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Segovia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Sevilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Soria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Tarragona>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Teruel>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Toledo>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Valencia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Valladolid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Vizcaya>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Zamora>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Zaragoza> ;
+    dcterms:title "Nacidos por cada mil defunciones según año (API identifier: /t20/p278/p03/2018-2033/idb/l0/03004.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/28964?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D28964>,
+        <https://www.ine.es/jaxi/files/tpx/csv/28964.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/28964.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/28964.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/28964.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/28964.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/28964.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/28964.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/28964.xlsx> ;
+    dcat:keyword "Demographic projections indicators and compilations"@en,
+        "Demography and population"@en,
+        "Population Projections"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p307-a2020-a2_10> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+New registers by country of origin and sex. National. Residence Variation Statistics"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "New registers by country of origin and sex (API identifier: /t20/p307/a2020/l0/a2_10.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48464?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D48464>,
+        <https://www.ine.es/jaxi/files/tpx/csv/48464.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/48464.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/48464.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/48464.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/48464.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/48464.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/48464.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/48464.xlsx> ;
+    dcat:keyword "AFRICA"@en,
+        "AMERICA"@en,
+        "Africa: Other countries"@en,
+        "Algeria"@en,
+        "America: Other countries"@en,
+        "Asia: Other countries"@en,
+        "Belarus"@en,
+        "Belgium"@en,
+        "Bosnia and Herzegovina"@en,
+        "Brazil"@en,
+        "Cameroon"@en,
+        "Canada"@en,
+        "Cape Verde"@en,
+        "Congo (Democratic Republic of the)"@en,
+        "Country of origin"@en,
+        "Croatia"@en,
+        "Cyprus"@en,
+        "Czech Republic"@en,
+        "Demography and population"@en,
+        "Denmark"@en,
+        "Dominican Republic"@en,
+        "Dominique"@en,
+        "EU27_2020"@en,
+        "EUROPE"@en,
+        "Egyto"@en,
+        "Equatorial Guinea"@en,
+        "Ethiopia"@en,
+        "Female"@en,
+        "Finland"@en,
+        "Foreigners"@en,
+        "France"@en,
+        "Germany"@en,
+        "Greece"@en,
+        "Hungary"@en,
+        "Iceland"@en,
+        "Iran"@en,
+        "Ireland"@en,
+        "Italy"@en,
+        "Ivory Coast"@en,
+        "Japan"@en,
+        "Jordan"@en,
+        "Kazakhstan"@en,
+        "Kenya"@en,
+        "Korea (Republic of)"@en,
+        "Latvia"@en,
+        "Lebanon"@en,
+        "Lithuania"@en,
+        "Luxembourg"@en,
+        "Macedonia (Former Republic of)"@en,
+        "Male"@en,
+        "Mexico"@en,
+        "Moldova"@en,
+        "Morocco"@en,
+        "Movements of the population"@en,
+        "Nationality"@en,
+        "New Zeland"@en,
+        "Norway"@en,
+        "OCEANIA"@en,
+        "Oceania: Other countries"@en,
+        "Pakistan"@en,
+        "Panama"@en,
+        "Peru"@en,
+        "Philippines"@en,
+        "Poland"@en,
+        "REST OF EUROPE"@en,
+        "Residence Variation Statistics"@en,
+        "Rest of Europe: Other countries"@en,
+        "Romania"@en,
+        "Russia"@en,
+        "Saudi Arabia"@en,
+        "Sex"@en,
+        "Sierra Leone"@en,
+        "Slovak Republic"@en,
+        "Slovenia"@en,
+        "South Africa"@en,
+        "Spaniards"@en,
+        "Statistics"@en,
+        "Sweden"@en,
+        "Switzerland"@en,
+        "Syria"@en,
+        "Thailand"@en,
+        "The Netherlands"@en,
+        "The United States"@en,
+        "Tunisia"@en,
+        "Turkey"@en,
+        "Ukraine"@en,
+        "United Kingdom"@en,
+        "Unknown"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p307-a2020-a2_14> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+New registers by country of origin and age. National. Residence Variation Statistics"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "New registers by country of origin and age (API identifier: /t20/p307/a2020/l0/a2_14.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48468?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D48468>,
+        <https://www.ine.es/jaxi/files/tpx/csv/48468.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/48468.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/48468.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/48468.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/48468.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/48468.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/48468.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/48468.xlsx> ;
+    dcat:keyword "0-15 years old"@en,
+        "16-24 years old"@en,
+        "25-34 years old"@en,
+        "35-44 years old"@en,
+        "45-54 years old"@en,
+        "55-64 years old"@en,
+        "65 years old or older"@en,
+        "AFRICA"@en,
+        "AMERICA"@en,
+        "Africa: Other countries"@en,
+        "Age"@en,
+        "Algeria"@en,
+        "America: Other countries"@en,
+        "Asia: Other countries"@en,
+        "Belarus"@en,
+        "Belgium"@en,
+        "Bosnia and Herzegovina"@en,
+        "Brazil"@en,
+        "Cameroon"@en,
+        "Canada"@en,
+        "Cape Verde"@en,
+        "Congo (Democratic Republic of the)"@en,
+        "Croatia"@en,
+        "Cyprus"@en,
+        "Czech Republic"@en,
+        "Demography and population"@en,
+        "Denmark"@en,
+        "Dominican Republic"@en,
+        "Dominique"@en,
+        "EU27_2020"@en,
+        "EUROPE"@en,
+        "Egyto"@en,
+        "Equatorial Guinea"@en,
+        "Ethiopia"@en,
+        "Female"@en,
+        "Finland"@en,
+        "France"@en,
+        "Germany"@en,
+        "Greece"@en,
+        "Hungary"@en,
+        "Iceland"@en,
+        "Iran"@en,
+        "Ireland"@en,
+        "Italy"@en,
+        "Ivory Coast"@en,
+        "Japan"@en,
+        "Jordan"@en,
+        "Kazakhstan"@en,
+        "Kenya"@en,
+        "Korea (Republic of)"@en,
+        "Latvia"@en,
+        "Lebanon"@en,
+        "Lithuania"@en,
+        "Luxembourg"@en,
+        "Macedonia (Former Republic of)"@en,
+        "Male"@en,
+        "Mexico"@en,
+        "Moldova"@en,
+        "Morocco"@en,
+        "Movements of the population"@en,
+        "New Zeland"@en,
+        "Norway"@en,
+        "OCEANIA"@en,
+        "Oceania: Other countries"@en,
+        "Pakistan"@en,
+        "Panama"@en,
+        "Peru"@en,
+        "Philippines"@en,
+        "Poland"@en,
+        "REST OF EUROPE"@en,
+        "Residence Variation Statistics"@en,
+        "Rest of Europe: Other countries"@en,
+        "Romania"@en,
+        "Russia"@en,
+        "STATELESS"@en,
+        "Saudi Arabia"@en,
+        "Sex"@en,
+        "Sierra Leone"@en,
+        "Slovak Republic"@en,
+        "Slovenia"@en,
+        "South Africa"@en,
+        "Spain"@en,
+        "Statistics"@en,
+        "Sweden"@en,
+        "Switzerland"@en,
+        "Syria"@en,
+        "Thailand"@en,
+        "The Netherlands"@en,
+        "The United States"@en,
+        "Tunisia"@en,
+        "Turkey"@en,
+        "Ukraine"@en,
+        "United Kingdom"@en,
+        "country of nationality"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p307-a2020-a2_2> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+New registers by country of nationality, birthplace and age. Residence Variation Statistics"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "New registers by country of nationality, birthplace and age (API identifier: /t20/p307/a2020/l0/a2_2.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48474?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D48474>,
+        <https://www.ine.es/jaxi/files/tpx/csv/48474.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/48474.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/48474.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/48474.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/48474.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/48474.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/48474.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/48474.xlsx> ;
+    dcat:keyword "0-15 years old"@en,
+        "16-24 years old"@en,
+        "25-34 years old"@en,
+        "35-44 years old"@en,
+        "45-54 years old"@en,
+        "55-64 years old"@en,
+        "65 years old or older"@en,
+        "Age"@en,
+        "Birthplace"@en,
+        "Born outside Spain"@en,
+        "Demography and population"@en,
+        "Destination province (grouped by Autonomous Community)"@en,
+        "Foreigners"@en,
+        "Movements of the population"@en,
+        "Nationality"@en,
+        "País Vasco"@en,
+        "Residence Variation Statistics"@en,
+        "Spain"@en,
+        "Spaniards"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-def-p01-e01-12003> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Mujeres que han tenido su primer hijo biológico más tarde de lo que consideran ideal, según el motivo más importante y edad. National. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Mujeres que han tenido su primer hijo biológico más tarde de lo que consideran ideal, según el motivo más importante y edad (API identifier: /t20/p317/a2018/def/p01/e01/l0/12003.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/def/p01/e01/12003.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/def/p01/e01/%26file%3D12003.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/def/p01/e01/12003.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/def/p01/e01/12003.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/def/p01/e01/12003.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/def/p01/e01/12003.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/def/p01/e01/12003.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/def/p01/e01/12003.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/def/p01/e01/12003.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/def/p01/e01/12003.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-def-p02-e01-02002> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Hombres según el número de hijos, si se separaron o divorciaron sus padres y edad. National. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Hombres según el número de hijos, si se separaron o divorciaron sus padres y edad (API identifier: /t20/p317/a2018/def/p02/e01/l0/02002.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/def/p02/e01/02002.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/def/p02/e01/%26file%3D02002.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/def/p02/e01/02002.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/def/p02/e01/02002.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/def/p02/e01/02002.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/def/p02/e01/02002.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/def/p02/e01/02002.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/def/p02/e01/02002.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/def/p02/e01/02002.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/def/p02/e01/02002.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-def-p02-e01-08001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Hombres según si utilizan o no métodos anticonceptivos en la actualidad, tipo de anticonceptivo y edad. National. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Hombres según si utilizan o no métodos anticonceptivos en la actualidad, tipo de anticonceptivo y edad (API identifier: /t20/p317/a2018/def/p02/e01/l0/08001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/def/p02/e01/08001.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/def/p02/e01/%26file%3D08001.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/def/p02/e01/08001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/def/p02/e01/08001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/def/p02/e01/08001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/def/p02/e01/08001.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/def/p02/e01/08001.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/def/p02/e01/08001.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/def/p02/e01/08001.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/def/p02/e01/08001.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-def-p02-e01-10001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Hombres cuyas parejas no están embarazadas y no han tenido hijos según el motivo más importante de este hecho y edad. National. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Hombres cuyas parejas no están embarazadas y no han tenido hijos según el motivo más importante de este hecho y edad (API identifier: /t20/p317/a2018/def/p02/e01/l0/10001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/def/p02/e01/10001.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/def/p02/e01/%26file%3D10001.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/def/p02/e01/10001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/def/p02/e01/10001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/def/p02/e01/10001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/def/p02/e01/10001.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/def/p02/e01/10001.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/def/p02/e01/10001.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/def/p02/e01/10001.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/def/p02/e01/10001.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-def-p02-e02-01002> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Hombres según el número de hijos, nacionalidad y edad. National. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Hombres según el número de hijos, nacionalidad y edad (API identifier: /t20/p317/a2018/def/p02/e02/l0/01002.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/def/p02/e02/01002.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/def/p02/e02/%26file%3D01002.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/def/p02/e02/01002.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/def/p02/e02/01002.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/def/p02/e02/01002.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/def/p02/e02/01002.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/def/p02/e02/01002.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/def/p02/e02/01002.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/def/p02/e02/01002.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/def/p02/e02/01002.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-def-p03-e01-08001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Mujeres según si utilizan o no métodos anticonceptivos en la actualidad, tipo de anticonceptivo y edad. Comunidades y Ciudades Autónomas. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia> ;
+    dcterms:title "Mujeres según si utilizan o no métodos anticonceptivos en la actualidad, tipo de anticonceptivo y edad (API identifier: /t20/p317/a2018/def/p03/e01/l0/08001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/def/p03/e01/08001.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/def/p03/e01/%26file%3D08001.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/def/p03/e01/08001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/def/p03/e01/08001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/def/p03/e01/08001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/def/p03/e01/08001.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/def/p03/e01/08001.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/def/p03/e01/08001.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/def/p03/e01/08001.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/def/p03/e01/08001.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-def-p03-e02-03005> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Mujeres según hayan interrumpido o no sus estudios durante 2 o más años académicos por maternidad. Comunidades y Ciudades Autónomas. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia> ;
+    dcterms:title "Mujeres según hayan interrumpido o no sus estudios durante 2 o más años académicos por maternidad (API identifier: /t20/p317/a2018/def/p03/e02/l0/03005.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/def/p03/e02/03005.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/def/p03/e02/%26file%3D03005.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/def/p03/e02/03005.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/def/p03/e02/03005.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/def/p03/e02/03005.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/def/p03/e02/03005.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/def/p03/e02/03005.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/def/p03/e02/03005.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/def/p03/e02/03005.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/def/p03/e02/03005.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-def-p03-e02-06004> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Mujeres con pareja según si tienen hijos o no y nivel educativo de la pareja. Comunidades y Ciudades Autónomas. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia> ;
+    dcterms:title "Mujeres con pareja según si tienen hijos o no y nivel educativo de la pareja (API identifier: /t20/p317/a2018/def/p03/e02/l0/06004.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/def/p03/e02/06004.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/def/p03/e02/%26file%3D06004.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/def/p03/e02/06004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/def/p03/e02/06004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/def/p03/e02/06004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/def/p03/e02/06004.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/def/p03/e02/06004.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/def/p03/e02/06004.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/def/p03/e02/06004.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/def/p03/e02/06004.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-def-p04-e01-11002> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Mujeres según el número de hijos que tienen, el número de hijos que tienen la intención de tener en los próximos 3 años y edad. Coeficiente de variación. National. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Mujeres según el número de hijos que tienen, el número de hijos que tienen la intención de tener en los próximos 3 años y edad. Coeficiente de variación (API identifier: /t20/p317/a2018/def/p04/e01/l0/11002.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/def/p04/e01/11002.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/def/p04/e01/%26file%3D11002.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/def/p04/e01/11002.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/def/p04/e01/11002.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/def/p04/e01/11002.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/def/p04/e01/11002.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/def/p04/e01/11002.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/def/p04/e01/11002.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/def/p04/e01/11002.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/def/p04/e01/11002.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t20-p317-a2018-p01-e02-04001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Mujeres de 18 a 55 que han tenido hijos según el motivo más importante al primer hijo y edad. National. Encuesta de Fecundidad"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Mujeres de 18 a 55 que han tenido hijos según el motivo más importante al primer hijo y edad (API identifier: /t20/p317/a2018/p01/e02/l0/04001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t20/p317/a2018/p01/e02/04001.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t20/p317/a2018/p01/e02/%26file%3D04001.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t20/p317/a2018/p01/e02/04001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t20/p317/a2018/p01/e02/04001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t20/p317/a2018/p01/e02/04001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t20/p317/a2018/p01/e02/04001.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t20/p317/a2018/p01/e02/04001.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t20/p317/a2018/p01/e02/04001.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t20/p317/a2018/p01/e02/04001.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t20/p317/a2018/p01/e02/04001.xlsx> ;
+    dcat:keyword "Demography and population"@en,
+        "Encuesta de Fecundidad"@en,
+        "Health"@en,
+        "Statistics"@en,
+        "Structure and situation of the population"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t22-e308-meto_05-modulo-base_2011-2020-01002> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Persons aged 16 to 74 who are employed or who worked in the last year, according to the number of accidents with injuries during their working day or commutes, by sex. National. Economically Active Population Survey"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Persons aged 16 to 74 who are employed or who worked in the last year, according to the number of accidents with injuries during their working day or commutes, by sex. EPA (API identifier: /t22/e308/meto_05/modulo/base_2011/2020/l0/01002.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48649?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D48649>,
+        <https://www.ine.es/jaxi/files/tpx/csv/48649.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/48649.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/48649.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/48649.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/48649.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/48649.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/48649.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/48649.xlsx> ;
+    dcat:keyword "Absolute value"@en,
+        "Both sexes"@en,
+        "Economically Active Population Survey"@en,
+        "Labour market"@en,
+        "Labour market and wages"@en,
+        "Men"@en,
+        "None"@en,
+        "Percentage"@en,
+        "Some accident during their working day or commutes"@en,
+        "Statistics"@en,
+        "They do not know / They do not answer"@en,
+        "Women"@en,
+        "number of accidents"@en,
+        "sex"@en,
+        "type of indicator"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t22-p133-a2018-provi-05001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Tipo de mercado de destino de la producción. Comunidad autónoma. Four-yearly Wage Structure Survey"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Tipo de mercado de destino de la producción. EAES:Q (API identifier: /t22/p133/a2018/provi/l0/05001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t22/p133/a2018/provi/05001.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t22/p133/a2018/provi/%26file%3D05001.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t22/p133/a2018/provi/05001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t22/p133/a2018/provi/05001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t22/p133/a2018/provi/05001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t22/p133/a2018/provi/05001.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t22/p133/a2018/provi/05001.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t22/p133/a2018/provi/05001.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t22/p133/a2018/provi/05001.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t22/p133/a2018/provi/05001.xlsx> ;
+    dcat:keyword "Four-yearly Wage Structure Survey"@en,
+        "Income and wage costs"@en,
+        "Labour market and wages"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t22-p133-cno11-serie-01004> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Indicators of inequality. National. Annual Wage Structure Survey"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Indicators of inequality. EAES (API identifier: /t22/p133/cno11/serie/l0/01004.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t22/p133/cno11/serie/01004.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t22/p133/cno11/serie/%26file%3D01004.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t22/p133/cno11/serie/01004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t22/p133/cno11/serie/01004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t22/p133/cno11/serie/01004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t22/p133/cno11/serie/01004.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t22/p133/cno11/serie/01004.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t22/p133/cno11/serie/01004.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t22/p133/cno11/serie/01004.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t22/p133/cno11/serie/01004.xlsx> ;
+    dcat:keyword "Annual Wage Structure Survey"@en,
+        "D5/D1 (The median (3) divided by the 1st decile of earnings per hour)"@en,
+        "D9/D1 (The 9th decile divided by the 1st decile of earnings per hour)"@en,
+        "D9/D5 (The 9th decile (2) divided by the median earnings per hour)"@en,
+        "Gini index"@en,
+        "Income and wage costs"@en,
+        "Labour market and wages"@en,
+        "Proportion of women out of the total wage earners with low earnings"@en,
+        "Proportion of workers with low earnings (Low pay rate)1)"@en,
+        "Statistics"@en,
+        "period"@en,
+        "type of indicator"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t22-p133-cno11-serie-02004> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Sex and Type of contract. National. Annual Wage Structure Survey"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Sex and Type of contract. EAES (API identifier: /t22/p133/cno11/serie/l0/02004.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t22/p133/cno11/serie/02004.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t22/p133/cno11/serie/%26file%3D02004.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t22/p133/cno11/serie/02004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t22/p133/cno11/serie/02004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t22/p133/cno11/serie/02004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t22/p133/cno11/serie/02004.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t22/p133/cno11/serie/02004.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t22/p133/cno11/serie/02004.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t22/p133/cno11/serie/02004.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t22/p133/cno11/serie/02004.xlsx> ;
+    dcat:keyword "Annual Wage Structure Survey"@en,
+        "Both sexes"@en,
+        "Determined duration"@en,
+        "Female"@en,
+        "Income and wage costs"@en,
+        "Indefinite duration"@en,
+        "Labour market and wages"@en,
+        "Male"@en,
+        "National total employed persons"@en,
+        "Statistics"@en,
+        "period"@en,
+        "sex"@en,
+        "type of contract"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t22-p320-base_2015-serie-04003> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Wage-earners by type of contract and age group. National. Statistics on the Employment of Persons with Disabilities"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Wage-earners by type of contract and age group (API identifier: /t22/p320/base_2015/serie/l0/04003.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/29803?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D29803>,
+        <https://www.ine.es/jaxi/files/tpx/csv/29803.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/29803.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/29803.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/29803.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/29803.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/29803.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/29803.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/29803.xlsx> ;
+    dcat:keyword "From 16 to 24 years old"@en,
+        "From 25 to 44 years old"@en,
+        "From 45 to 64 years old"@en,
+        "Indefinite duration"@en,
+        "Labour market and wages"@en,
+        "Labour relations and other work aspects"@en,
+        "Persons with disabilities"@en,
+        "Persons without disabilities"@en,
+        "Quality of life and living conditions"@en,
+        "Statistics"@en,
+        "Statistics on the Employment of Persons with Disabilities"@en,
+        "Temporary"@en,
+        "Vertical percentage: Persons with disabilities"@en,
+        "Vertical percentage: Persons without disabilities"@en,
+        "Vertical percentage: Total"@en,
+        "age group"@en,
+        "persons with and without disabilities"@en,
+        "type of contract"@en,
+        "year"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t22-p320-base_2015-serie-09007> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Benefits, according to their contributory nature, by age group. National. Statistics on the Employment of Persons with Disabilities"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Benefits, according to their contributory nature, by age group (API identifier: /t22/p320/base_2015/serie/l0/09007.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/29849?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D29849>,
+        <https://www.ine.es/jaxi/files/tpx/csv/29849.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/29849.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/29849.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/29849.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/29849.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/29849.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/29849.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/29849.xlsx> ;
+    dcat:keyword "16 to 24 years old"@en,
+        "25 to 44 years old"@en,
+        "45 to 64 years old"@en,
+        "Horizontal percentage: Persons with disabilities"@en,
+        "Horizontal percentage: Persons without disabilities"@en,
+        "Horizontal percentage: Total"@en,
+        "Labour market and wages"@en,
+        "Labour relations and other work aspects"@en,
+        "Persons with benefits: Total"@en,
+        "Persons with disabilities"@en,
+        "Persons with solely non-contributory benefits"@en,
+        "Persons with some contributory benefits"@en,
+        "Persons without benefits"@en,
+        "Persons without disabilities"@en,
+        "Quality of life and living conditions"@en,
+        "Statistics"@en,
+        "Statistics on the Employment of Persons with Disabilities"@en,
+        "Vertical percentage: Persons with disabilities"@en,
+        "Vertical percentage: Persons without disabilities"@en,
+        "Vertical percentage: Total"@en,
+        "age group"@en,
+        "contributory/non-contributory benefit"@en,
+        "persons with and without disabilities"@en,
+        "year"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t22-p320-base_2015-serie-12004> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Level of studies by type of municipality. National. Statistics on the Employment of Persons with Disabilities"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Level of studies by type of municipality (API identifier: /t22/p320/base_2015/serie/l0/12004.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/29868?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D29868>,
+        <https://www.ine.es/jaxi/files/tpx/csv/29868.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/29868.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/29868.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/29868.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/29868.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/29868.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/29868.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/29868.xlsx> ;
+    dcat:keyword "Densely populated area"@en,
+        "Higher education"@en,
+        "Illiterate persons"@en,
+        "Labour market and wages"@en,
+        "Labour relations and other work aspects"@en,
+        "Moderately populated area"@en,
+        "Persons with disabilities"@en,
+        "Persons without disabilities"@en,
+        "Primary"@en,
+        "Quality of life and living conditions"@en,
+        "Secondary and labour training and insertion programmes"@en,
+        "Sparsely populated area"@en,
+        "Statistics"@en,
+        "Statistics on the Employment of Persons with Disabilities"@en,
+        "Vertical percentage: Persons with disabilities"@en,
+        "Vertical percentage: Persons without disabilities"@en,
+        "Vertical percentage: Total"@en,
+        "level of studies"@en,
+        "persons with and without disabilities"@en,
+        "type of municipality"@en,
+        "year"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t22-p332-serie-02007> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Personas según si tienen o no relación laboral en alta en la Seguridad Social por grado de discapacidad. National. Professional Life of People with Disabilities"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Personas según si tienen o no relación laboral en alta en la Seguridad Social por grado de discapacidad (API identifier: /t22/p332/serie/l0/02007.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48961?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D48961>,
+        <https://www.ine.es/jaxi/files/tpx/csv/48961.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/48961.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/48961.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/48961.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/48961.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/48961.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/48961.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/48961.xlsx> ;
+    dcat:keyword "Labour market and wages"@en,
+        "Labour relations and other work aspects"@en,
+        "Professional Life of People with Disabilities"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t25-p450-base_2011-a2021-08001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Uso de Internet por Comunidades y Ciudades Autónomas y frecuencia de uso. Survey on Equipment and Use of Information and Communication Technologies in Households"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Uso de Internet por Comunidades y Ciudades Autónomas y frecuencia de uso (API identifier: /t25/p450/base_2011/a2021/l0/08001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/50046?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D50046>,
+        <https://www.ine.es/jaxi/files/tpx/csv/50046.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/50046.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/50046.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/50046.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/50046.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/50046.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/50046.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/50046.xlsx> ;
+    dcat:keyword "Information and Communication Technologies (ICT)"@en,
+        "Information and communication technologies"@en,
+        "Quality of life and living conditions"@en,
+        "Statistics"@en,
+        "Survey on Equipment and Use of Information and Communication Technologies in Households"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+        <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t25-p450-base_2011-a2021-08003> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Servicios de Internet usados, por motivos particulares, en los últimos 3 meses por Comunidades y Ciudades Autónomas y naturaleza del servicio. Survey on Equipment and Use of Information and Communication Technologies in Households"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Servicios de Internet usados, por motivos particulares, en los últimos 3 meses por Comunidades y Ciudades Autónomas y naturaleza del servicio (API identifier: /t25/p450/base_2011/a2021/l0/08003.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/50049?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D50049>,
+        <https://www.ine.es/jaxi/files/tpx/csv/50049.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/50049.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/50049.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/50049.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/50049.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/50049.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/50049.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/50049.xlsx> ;
+    dcat:keyword "Information and Communication Technologies (ICT)"@en,
+        "Information and communication technologies"@en,
+        "Quality of life and living conditions"@en,
+        "Statistics"@en,
+        "Survey on Equipment and Use of Information and Communication Technologies in Households"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+        <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t25-p450-base_2011-a2021-09001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Resumen de datos de Viviendas por Comunidades y Ciudades Autónomas, tamaño del hogar, tipo de hogar, hábitat, ingresos mensuales netos del hogar y tipo de equipamiento. Survey on Equipment and Use of Information and Communication Technologies in Households"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Resumen de datos de Viviendas por Comunidades y Ciudades Autónomas, tamaño del hogar, tipo de hogar, hábitat, ingresos mensuales netos del hogar y tipo de equipamiento (API identifier: /t25/p450/base_2011/a2021/l0/09001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/50035?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D50035>,
+        <https://www.ine.es/jaxi/files/tpx/csv/50035.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/50035.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/50035.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/50035.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/50035.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/50035.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/50035.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/50035.xlsx> ;
+    dcat:keyword "Information and Communication Technologies (ICT)"@en,
+        "Information and communication technologies"@en,
+        "Quality of life and living conditions"@en,
+        "Statistics"@en,
+        "Survey on Equipment and Use of Information and Communication Technologies in Households"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+        <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t25-p453-modulo-2020-01004> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Hogares según su retraso en el pago de recibos no relacionados con la vivienda por régimen de tenencia de la vivienda. National. Living Conditions Survey (LCS)"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Hogares según su retraso en el pago de recibos no relacionados con la vivienda por régimen de tenencia de la vivienda. ECV (API identifier: /t25/p453/modulo/2020/l0/01004.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48796?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D48796>,
+        <https://www.ine.es/jaxi/files/tpx/csv/48796.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/48796.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/48796.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/48796.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/48796.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/48796.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/48796.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/48796.xlsx> ;
+    dcat:keyword "Life conditions and quality"@en,
+        "Living Conditions Survey (LCS)"@en,
+        "Quality of life and living conditions"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t25-p453-modulo-2020-01007> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Hogares según nivel de endeudamiento respecto a la renta neta por nacionalidad de la persona de referencia. National. Living Conditions Survey (LCS)"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Hogares según nivel de endeudamiento respecto a la renta neta por nacionalidad de la persona de referencia. ECV (API identifier: /t25/p453/modulo/2020/l0/01007.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48799?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D48799>,
+        <https://www.ine.es/jaxi/files/tpx/csv/48799.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/48799.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/48799.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/48799.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/48799.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/48799.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/48799.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/48799.xlsx> ;
+    dcat:keyword "Life conditions and quality"@en,
+        "Living Conditions Survey (LCS)"@en,
+        "Quality of life and living conditions"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t26-e068-p03-serie-02001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Sample errors by economic activity CNAE-2009 and type of danger. National. Surveys on Waste Generation"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Sample errors by economic activity CNAE-2009 and type of danger. (API identifier: /t26/e068/p03/serie/l0/02001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t26/e068/p03/serie/02001.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t26/e068/p03/serie/%26file%3D02001.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t26/e068/p03/serie/02001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t26/e068/p03/serie/02001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t26/e068/p03/serie/02001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t26/e068/p03/serie/02001.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t26/e068/p03/serie/02001.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t26/e068/p03/serie/02001.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t26/e068/p03/serie/02001.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t26/e068/p03/serie/02001.xlsx> ;
+    dcat:keyword "Accommodation : 55 and 56 divisions"@en,
+        "All activities: G H I J L M N P Q R and S divisions"@en,
+        "Buildings services and gardening activities: 81 division"@en,
+        "Construction: 41 42 and 43 divisions"@en,
+        "Education: 85 division"@en,
+        "Environment and sustainable development"@en,
+        "Hazardous"@en,
+        "Health and veterinary activities social services: 86 87 and 75 divisions"@en,
+        "Information and communication: from 58 to 63 divisions"@en,
+        "Non-Hazardous"@en,
+        "Real estate activities professional scientific and technical activities Administrative and support s"@en,
+        "Recreational cultural and association activities: 90 to 96 divisions"@en,
+        "Retail trade except for motor vehicle trade and motorcycles: 47 division"@en,
+        "Sale and repair of motor vehicles and motorcycles: 45 division"@en,
+        "Statistics"@en,
+        "Surveys on Waste Generation"@en,
+        "Transport and storage: from 49 to 53 divisions"@en,
+        "Water collection treatment and supply"@en,
+        "Wholesale trade and trade intermediaries except for motor vehicles and bikes: 46 division"@en,
+        "economic activity CNAE-2009"@en,
+        "period"@en,
+        "type of danger"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t26-p070-p01-serie-03001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Sampling errors by period, type of expenditure and total industry. National. Energy Consumption Survey"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Sampling errors by period, type of expenditure and total industry. (API identifier: /t26/p070/p01/serie/l0/03001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t26/p070/p01/serie/03001.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t26/p070/p01/serie/%26file%3D03001.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t26/p070/p01/serie/03001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t26/p070/p01/serie/03001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t26/p070/p01/serie/03001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t26/p070/p01/serie/03001.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t26/p070/p01/serie/03001.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t26/p070/p01/serie/03001.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t26/p070/p01/serie/03001.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t26/p070/p01/serie/03001.xlsx> ;
+    dcat:keyword "CURRENT EXPENDITURE"@en,
+        "Energy Consumption Survey"@en,
+        "Energy production distribution and consumption of energy products"@en,
+        "Extraction of energy products and energy in general"@en,
+        "INVESTMENT IN INDEPENDENT EQUIPMENT AND INSTALLATIONS"@en,
+        "INVESTMENT IN INTEGRATED EQUIPMENT AND INSTALLATIONS"@en,
+        "Mining and industry"@en,
+        "Statistics"@en,
+        "Total industry"@en,
+        "period"@en,
+        "total industry"@en,
+        "type of expenditure"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON>,
+        <http://publications.europa.eu/resource/authority/data-theme/ENER> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t30-p151-a1995-d20072> a dcat:Dataset ;
+    dcterms:description """Table of INEBasePrivate Limited Companies created, by Autonomous Communities, province and range of capital
+LTD created, classified by autonomous communtiy and provinces, LTD capital brackets (in millions of pesetas) and number of companies and capital. National. Mercantile Companies Statistic"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "LTD created, classified by autonomous communtiy and provinces, LTD capital brackets (in millions of pesetas) and number of companies and capital. SM (API identifier: /t30/p151/a1995/l0/d20072.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/24528?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D24528>,
+        <https://www.ine.es/jaxi/files/tpx/csv/24528.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/24528.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/24528.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/24528.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/24528.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/24528.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/24528.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/24528.xlsx> ;
+    dcat:keyword "Autonomous Communities and provinces"@en,
+        "Corporate statistics and production units not referring to particular sectors"@en,
+        "Mercantile Companies Statistic"@en,
+        "More than 50000000"@en,
+        "Production units general statistics"@en,
+        "Statistics"@en,
+        "capital (in millions of pesetas)"@en,
+        "from 10000001 to 25000000"@en,
+        "from 25000001 to 50000000"@en,
+        "from 3000001 to 10000000"@en,
+        "number of companies"@en,
+        "number of companies and capital"@en,
+        "range of capital (in millions of pesetas) of the LTD."@en,
+        "up to 3000000"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t35-p010-rev19-homoge-02001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+P.I.B. at market prices. and components (current prices)  by  provinces, economic activity and period. Spanish Regional Accounts"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/A-Coruna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Alava>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Albacete>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Alicante>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Almeria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Avila>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Badajoz>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Barcelona>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Burgos>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Caceres>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cadiz>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Castellon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ceuta>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ciudad-Real>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cordoba>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cuenca>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Girona>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Granada>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Guadalajara>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Guipuzcoa>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Huelva>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Huesca>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Jaen>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Las-Palmas>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Lleida>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Lugo>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Malaga>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Melilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ourense>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Palencia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Pontevedra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Salamanca>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Santa-Cruz-Tenerife>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Segovia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Sevilla>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Soria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Tarragona>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Teruel>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Toledo>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Valencia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Valladolid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Vizcaya>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Zamora>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Zaragoza> ;
+    dcterms:title "P.I.B. at market prices. and components (current prices)  by  provinces, economic activity and period. (API identifier: /t35/p010/rev19/homoge/l0/02001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t35/p010/rev19/homoge/02001.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t35/p010/rev19/homoge/%26file%3D02001.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t35/p010/rev19/homoge/02001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t35/p010/rev19/homoge/02001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t35/p010/rev19/homoge/02001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t35/p010/rev19/homoge/02001.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t35/p010/rev19/homoge/02001.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t35/p010/rev19/homoge/02001.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t35/p010/rev19/homoge/02001.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t35/p010/rev19/homoge/02001.xlsx> ;
+    dcat:keyword "A. Agriculture livestock breeding forestry and fishing"@en,
+        "B_E. Mining and quarrying industries Manufacturing industry supply of electrical energy gas steam an"@en,
+        "C. Of which: Manufacturing industry"@en,
+        "Economic accounts"@en,
+        "F. Construction"@en,
+        "G_J. Whole sale and retail sale repair of motor vehicles and motorcycles Transport and Storage hoste"@en,
+        "Gross Domestic Product at market prices (GDPmp)"@en,
+        "K_N.financial and insurance activities real statte professional scientific and technical activities"@en,
+        "Net taxes on products"@en,
+        "O_U. Public Administration and defense Compulsory social security educational health and social care"@en,
+        "Provinces"@en,
+        "Regional and local accounts"@en,
+        "Spanish Regional Accounts"@en,
+        "Statistics"@en,
+        "Total gross added value"@en,
+        "economic activity"@en,
+        "period"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t35-p011-rev19-serie-02004> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Número de empresas en las industrias turísticas by ramas de  actividad, periodo and número promedio de asalariados. National. Spanish Tourism Satellite Account. Base 2010"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Número de empresas en las industrias turísticas by ramas de  actividad, periodo and número promedio de asalariados. (API identifier: /t35/p011/rev19/serie/l0/02004.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t35/p011/rev19/serie/02004.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t35/p011/rev19/serie/%26file%3D02004.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t35/p011/rev19/serie/02004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t35/p011/rev19/serie/02004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t35/p011/rev19/serie/02004.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t35/p011/rev19/serie/02004.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t35/p011/rev19/serie/02004.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t35/p011/rev19/serie/02004.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t35/p011/rev19/serie/02004.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t35/p011/rev19/serie/02004.xlsx> ;
+    dcat:keyword "Catering and tourism"@en,
+        "Economic accounts"@en,
+        "Satellite accounts"@en,
+        "Spanish Tourism Satellite Account. Base 2010"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t35-p011-rev19-serie-03001> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Aportación del turismo al PIB de la economía española: by PIB y sus  componentes, valor absoluto/porcentaje/índice and periodo. National. Spanish Tourism Satellite Account. Base 2010"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Aportación del turismo al PIB de la economía española: by PIB y sus  componentes, valor absoluto/porcentaje/índice and periodo. (API identifier: /t35/p011/rev19/serie/l0/03001.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t35/p011/rev19/serie/03001.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t35/p011/rev19/serie/%26file%3D03001.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t35/p011/rev19/serie/03001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t35/p011/rev19/serie/03001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t35/p011/rev19/serie/03001.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t35/p011/rev19/serie/03001.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t35/p011/rev19/serie/03001.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t35/p011/rev19/serie/03001.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t35/p011/rev19/serie/03001.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t35/p011/rev19/serie/03001.xlsx> ;
+    dcat:keyword "Catering and tourism"@en,
+        "Economic accounts"@en,
+        "Satellite accounts"@en,
+        "Spanish Tourism Satellite Account. Base 2010"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t37-e01-p01-cnae09-a2019-01006d> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Actividades postales y de correo (División 53 CNAE-2009): por desglose  de la cifra de negocios según el ámbito geográfico y tramos de  ocupación. National. Statistics on Products in the Services Sector"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Actividades postales y de correo (División 53 CNAE-2009): por desglose  de la cifra de negocios según el ámbito geográfico y tramos de  ocupación. (API identifier: /t37/e01/p01/cnae09/a2019/l0/01006d.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48702?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D48702>,
+        <https://www.ine.es/jaxi/files/tpx/csv/48702.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/48702.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/48702.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/48702.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/48702.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/48702.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/48702.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/48702.xlsx> ;
+    dcat:keyword "Services (general statistics)"@en,
+        "Statistics"@en,
+        "Statistics on Products in the Services Sector"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t37-e01-p01-cnae09-a2019-04008a> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+C* Actividades de agencias de viajes y operadores turísticos (Grupo 791  CNAE-2009): por desglose de los consumos de productos y servicios  adquiridos. National. Statistics on Products in the Services Sector"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "C* Actividades de agencias de viajes y operadores turísticos (Grupo 791  CNAE-2009): por desglose de los consumos de productos y servicios  adquiridos. (API identifier: /t37/e01/p01/cnae09/a2019/l0/04008a.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48728?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D48728>,
+        <https://www.ine.es/jaxi/files/tpx/csv/48728.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/48728.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/48728.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/48728.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/48728.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/48728.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/48728.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/48728.xlsx> ;
+    dcat:keyword "Services (general statistics)"@en,
+        "Statistics"@en,
+        "Statistics on Products in the Services Sector"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t37-p199-p01-serie-03003> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Appropriate regulation. Perception of the evolution of the resources dedicated to resolving paperwork with the administrations. Autonomous Community. Business Confidence Indicators"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia>,
+        <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Appropriate regulation. Perception of the evolution of the resources dedicated to resolving paperwork with the administrations. ICE (API identifier: /t37/p199/p01/serie/l0/03003.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t37/p199/p01/serie/03003.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t37/p199/p01/serie/%26file%3D03003.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t37/p199/p01/serie/03003.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t37/p199/p01/serie/03003.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t37/p199/p01/serie/03003.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t37/p199/p01/serie/03003.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t37/p199/p01/serie/03003.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t37/p199/p01/serie/03003.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t37/p199/p01/serie/03003.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t37/p199/p01/serie/03003.xlsx> ;
+    dcat:keyword "1. State Administration: It decreased"@en,
+        "1. State Administration: It increased"@en,
+        "1. State Administration: It remained stable"@en,
+        "2. Autonomous Community Administration: It decreased"@en,
+        "2. Autonomous Community Administration: It increased"@en,
+        "2. Autonomous Community Administration: It remained stable"@en,
+        "3. Local Administration: It decreased"@en,
+        "3. Local Administration: It increased"@en,
+        "3. Local Administration: It remained stable"@en,
+        "Andalucía"@en,
+        "Autonomous Community"@en,
+        "Business Confidence Indicators"@en,
+        "Corporate statistics and production units not referring to particular sectors"@en,
+        "Production units general statistics"@en,
+        "Statistics"@en,
+        "Total establishments"@en,
+        "perception of the evolution by public administrations"@en,
+        "period"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-t37-p227-p01-a2018-e01-01006> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Number of affiliates of foreign companies by activity sector and geographical area of the parent company. National. Statistics on Affiliates of Foreign Companies in Spain"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Number of affiliates of foreign companies by activity sector and geographical area of the parent company (API identifier: /t37/p227/p01/a2018/e01/l0/01006.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/t37/p227/p01/a2018/e01/01006.px?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?path%3D/t37/p227/p01/a2018/e01/%26file%3D01006.px>,
+        <https://www.ine.es/jaxi/files/_px/csv/t37/p227/p01/a2018/e01/01006.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bd/t37/p227/p01/a2018/e01/01006.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_bdsc/t37/p227/p01/a2018/e01/01006.csv>,
+        <https://www.ine.es/jaxi/files/_px/csv_c/t37/p227/p01/a2018/e01/01006.csv_c>,
+        <https://www.ine.es/jaxi/files/_px/csv_sc/t37/p227/p01/a2018/e01/01006.csv_sc>,
+        <https://www.ine.es/jaxi/files/_px/px/t37/p227/p01/a2018/e01/01006.px>,
+        <https://www.ine.es/jaxi/files/_px/xls/t37/p227/p01/a2018/e01/01006.xls>,
+        <https://www.ine.es/jaxi/files/_px/xlsx/t37/p227/p01/a2018/e01/01006.xlsx> ;
+    dcat:keyword "America"@en,
+        "Corporate statistics and production units not referring to particular sectors"@en,
+        "EUROZONE"@en,
+        "Industry"@en,
+        "Production units general statistics"@en,
+        "Rest of the European Union"@en,
+        "Services"@en,
+        "Statistics"@en,
+        "Statistics on Affiliates of Foreign Companies in Spain"@en,
+        "The rest of Europe"@en,
+        "The rest of the world"@en,
+        "Trade"@en,
+        "activity sector"@en,
+        "geographical area of the parent company"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
+<http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-tpx-ayma_2098-agri_2131-cea_8301-cap02_8445-01002c> a dcat:Dataset ;
+    dcterms:description """Table of INEBase
+Explotaciones ganaderas por tipo de ganado. National. Agrcultural Census"""@en ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Explotaciones ganaderas por tipo de ganado. (API identifier: /tpx/AyMA_2098/Agri_2131/CEA_8301/cap02_8445/l0/01002c.px)"@en ;
+    dcat:accessURL <https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/52076?tip%3DAM>,
+        <https://www.ine.es/jaxi/Tabla.htm?tpx%3D52076>,
+        <https://www.ine.es/jaxi/files/tpx/csv/52076.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bd/52076.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_bdsc/52076.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_c/52076.csv>,
+        <https://www.ine.es/jaxi/files/tpx/csv_sc/52076.csv>,
+        <https://www.ine.es/jaxi/files/tpx/px/52076.px>,
+        <https://www.ine.es/jaxi/files/tpx/xls/52076.xls>,
+        <https://www.ine.es/jaxi/files/tpx/xlsx/52076.xlsx> ;
+    dcat:keyword "Agrarian structures registers and production methods"@en,
+        "Agrcultural Census"@en,
+        "Agriculture livestock forestry and hunting"@en,
+        "Basic characteristics of the farm"@en,
+        "Statistics"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    foaf:name "Instituto Nacional de Estadística" .
+
