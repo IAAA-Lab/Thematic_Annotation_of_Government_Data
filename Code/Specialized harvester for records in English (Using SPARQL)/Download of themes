@@ -1,0 +1,114 @@
+https://data.europa.eu/data/sparql?locale=en
+
+#Count Data Themes
+
+PREFIX dct:<http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?s WHERE 
+{ 
+    ?s skos:inScheme <http://publications.europa.eu/resource/authority/data-theme> 
+}
+LIMIT 100
+
+#15
+
+#<http://publications.europa.eu/resource/authority/data-theme/ECON>
+#<http://publications.europa.eu/resource/authority/data-theme/EDUC>
+#<http://publications.europa.eu/resource/authority/data-theme/ENER>
+#<http://publications.europa.eu/resource/authority/data-theme/ENVI>
+#<http://publications.europa.eu/resource/authority/data-theme/GOVE>
+#<http://publications.europa.eu/resource/authority/data-theme/HEAL>
+#<http://publications.europa.eu/resource/authority/data-theme/JUST>
+#<http://publications.europa.eu/resource/authority/data-theme/SOCI>
+#<http://publications.europa.eu/resource/authority/data-theme/TECH>
+#<http://publications.europa.eu/resource/authority/data-theme/TRAN>
+#<http://publications.europa.eu/resource/authority/data-theme/UKLF>
+#<http://publications.europa.eu/resource/authority/data-theme/AGRI>
+#<http://publications.europa.eu/resource/authority/data-theme/INTR>
+#<http://publications.europa.eu/resource/authority/data-theme/OP_DATPRO>
+#<http://publications.europa.eu/resource/authority/data-theme/REGI>
+
+
+PREFIX dct:<http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?s WHERE 
+{ 
+    ?s a <http://publications.europa.eu/ontology/euvoc#DataTheme>
+}
+LIMIT 100
+
+#14
+
+#<http://publications.europa.eu/resource/authority/data-theme/ECON>
+#<http://publications.europa.eu/resource/authority/data-theme/EDUC>
+#<http://publications.europa.eu/resource/authority/data-theme/ENER>
+#<http://publications.europa.eu/resource/authority/data-theme/ENVI>
+#<http://publications.europa.eu/resource/authority/data-theme/GOVE>
+#<http://publications.europa.eu/resource/authority/data-theme/HEAL>
+#<http://publications.europa.eu/resource/authority/data-theme/JUST>
+#<http://publications.europa.eu/resource/authority/data-theme/SOCI>
+#<http://publications.europa.eu/resource/authority/data-theme/TECH>
+#<http://publications.europa.eu/resource/authority/data-theme/TRAN>
+#<http://publications.europa.eu/resource/authority/data-theme/AGRI>
+#<http://publications.europa.eu/resource/authority/data-theme/INTR>
+#<http://publications.europa.eu/resource/authority/data-theme/OP_DATPRO>
+#<http://publications.europa.eu/resource/authority/data-theme/REGI>
+
+#Extract properties of DataThemes
+
+
+
+CONSTRUCT { ?s ?p ?o} WHERE
+{
+	GRAPH ?g
+	{ ?s a  <http://publications.europa.eu/ontology/euvoc#DataTheme>; ?p ?o}.
+}
+OFFSET 0 LIMIT 10000
+#1042 results
+
+PREFIX dct:<http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?s ?p ?o WHERE 
+{ 
+    ?s a <http://publications.europa.eu/ontology/euvoc#DataTheme>.
+    ?s ?p ?o
+}
+LIMIT 10000
+#1054 results
+
+CONSTRUCT { ?s ?p ?o} WHERE 
+{ 
+    ?s a <http://publications.europa.eu/ontology/euvoc#DataTheme>.
+    ?s ?p ?o
+}
+#1054 results
+
+PREFIX dct:<http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?s ?p ?o WHERE 
+{ 
+    ?s skos:inScheme <http://publications.europa.eu/resource/authority/data-theme>.
+    ?s ?p ?o
+}
+LIMIT 10000
+
+#TIME OUT
+
+#RETRIEVE THE PROPERTIES OF THE GRAPH
+
+SELECT DISTINCT ?g ?p ?o WHERE
+{
+	?g ?p ?o
+	GRAPH ?g
+	{ ?s a  <http://publications.europa.eu/ontology/euvoc#DataTheme>}.
+}
+
+#17 properties
