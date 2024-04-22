@@ -1,0 +1,694 @@
+,TitlePlusDescription,all_themes,Detect Language,Translated_Title_Description
+6895,"English-Finnish corpus from Finnish Information Bank (Processed)http://www.infopankki.fi - Finland in your language - Information about Finland - Moving to Finland - Living in Finland
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.","['Education', 'Health', 'Society']",en,"English-Finnish corpus from Finnish Information Bank (Processed)http://www.infopankki.fi - Finland in your language - Information about Finland - Moving to Finland - Living in Finland
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu."
+1361,"biological zones of the EU's Atlantic AreaThis layer is a model of the biological zones of the EU's 'Atlantic Area 2007-2013'. It was performed within the framework of MeshAtlantic project (INTERREG Atlantic Area 2007-2013 program).
+This layer was modelled with the use of bespoke base layers that were the bathymetry,  wave wavelength and the kdpar
+The biological zones boundaries were defined in the following way.
+- Infralittoral lower limit: limit at which the percentage of light reaching the seabed is 1%. The percentage of light layer was calculated by intersecting the kdpar and the bathymetry layers. For more details about this calculation see e.g. Vasquez et al. (in press).
+- Circalittoral lower limit: limit at which the ratio wave wave length over the depth equals 2.53
+- Deep circalittoral lower limit: break of slope due to the entrance into the continental slope. This limit was digitalized with the use of the bathymetry layer
+- Upper slope lower limit: depth 750m
+- Upper bathyal lower limit: depth 1100m
+- Mid bathyal lower limit: depth 1800m
+- Lower bathyal lower limit: break of slope due to the entrance into the abyssal plain. This limit was digitalized with the use of the bathymetry layer
+Deep biological zones (from upper slope to abyssal) were chosen according to the classification proposed by Howell (2010).
+
+For more detail see Vasquez et al. (in press)
+
+Howell, K.L., 2010. A benthic classification system to aid in the implementation of marine protected area networks in the deep/high seas of the NE Atlantic. Biological Conservation 143, 10411056.
+Vasquez, M., Mata Chacón, D., Tempera, F., OKeeffe, E., Galparsoro, I., Sanz Alonso, J. L., Gonçalves, J.M.S., Bentes, L., Amorim, P., Henriques, V., McGrath, F., Monteiro, P., Mendes, B., Freitas, R., Martins, R., Populus, J., In press. Broad-scale mapping of seafloor habitats in the north-east Atlantic using existing environmental data.",['Environment'],en,"biological zones of the EU's Atlantic AreaThis layer is a model of the biological zones of the EU's 'Atlantic Area 2007-2013'. It was performed within the framework of MeshAtlantic project (INTERREG Atlantic Area 2007-2013 program).
+This layer was modelled with the use of bespoke base layers that were the bathymetry,  wave wavelength and the kdpar
+The biological zones boundaries were defined in the following way.
+- Infralittoral lower limit: limit at which the percentage of light reaching the seabed is 1%. The percentage of light layer was calculated by intersecting the kdpar and the bathymetry layers. For more details about this calculation see e.g. Vasquez et al. (in press).
+- Circalittoral lower limit: limit at which the ratio wave wave length over the depth equals 2.53
+- Deep circalittoral lower limit: break of slope due to the entrance into the continental slope. This limit was digitalized with the use of the bathymetry layer
+- Upper slope lower limit: depth 750m
+- Upper bathyal lower limit: depth 1100m
+- Mid bathyal lower limit: depth 1800m
+- Lower bathyal lower limit: break of slope due to the entrance into the abyssal plain. This limit was digitalized with the use of the bathymetry layer
+Deep biological zones (from upper slope to abyssal) were chosen according to the classification proposed by Howell (2010).
+
+For more detail see Vasquez et al. (in press)
+
+Howell, K.L., 2010. A benthic classification system to aid in the implementation of marine protected area networks in the deep/high seas of the NE Atlantic. Biological Conservation 143, 10411056.
+Vasquez, M., Mata Chacón, D., Tempera, F., OKeeffe, E., Galparsoro, I., Sanz Alonso, J. L., Gonçalves, J.M.S., Bentes, L., Amorim, P., Henriques, V., McGrath, F., Monteiro, P., Mendes, B., Freitas, R., Martins, R., Populus, J., In press. Broad-scale mapping of seafloor habitats in the north-east Atlantic using existing environmental data."
+17063,"Graduados universitarios desempleados en 2019 según el medio de búsqueda de empleo por sexo (API identifier: /t13/p100/2019/p02/l0/05006.px)Table of INEBase
+Graduados universitarios desempleados en 2019 según el medio de búsqueda de empleo por sexo. National. Survey on the Labour Insertion of University Graduates","['Economy', 'Education']",es,"University graduates unemployed in 2019 according to the medium of searching for sex (API identifier: /t13/p100/2019/p02/l0/05006.px)
+Unemployed university graduates in 2019 according to the medium of job search by sex. National Survey On The Labour Insertion of University Graduates"
+2984,"Wildfire in San Felices de los Gallegos, Spain (2021-09-01)<br/> 
+Activation date: 2021-09-01 <br/> 
+Event type: Wildfire <br/> 
+ <br/> 
+Activation reason: <br/> 
+The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish province of Salamanca (Spain), on 17th August 2021. Active flames were located in San Felices de los Gallegos and Ba&ntilde;ob&aacute;rez, as well as in the areas known as La Granja and Los Navazos, on the edge of the Arribes del Duero natural park. The presence of several outbreaks suggests that it could have been an intentional fire.The goal of the activation has been to provide wildfire damage delineation and grading products that will support the police investigation and the damage assessment.The P07-Wildfire delineation and grading product has been generated by using post-event VHR satellite images. The analysis resulted in 1608.22 ha burnt, of which 1596.21 ha only slightly damaged and 12.01 ha moderately damaged.The P14-Impact assessment analysis on assets and population shows that the damage from the fire has not been serious. The largest damaged area was covered by sclerophyllous vegetation. Damage to the agricultural sector was minimal, but several warehouse buildings were affected. <br/> 
+ <br/>","['Regions', 'Technology']",en,"Wildfire in San Felices de los Gallegos, Spain (2021-09-01)<br/> 
+Activation date: 2021-09-01 <br/> 
+Event type: Wildfire <br/> 
+ <br/> 
+Activation reason: <br/> 
+The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish province of Salamanca (Spain), on 17th August 2021. Active flames were located in San Felices de los Gallegos and Ba&ntilde;ob&aacute;rez, as well as in the areas known as La Granja and Los Navazos, on the edge of the Arribes del Duero natural park. The presence of several outbreaks suggests that it could have been an intentional fire.The goal of the activation has been to provide wildfire damage delineation and grading products that will support the police investigation and the damage assessment.The P07-Wildfire delineation and grading product has been generated by using post-event VHR satellite images. The analysis resulted in 1608.22 ha burnt, of which 1596.21 ha only slightly damaged and 12.01 ha moderately damaged.The P14-Impact assessment analysis on assets and population shows that the damage from the fire has not been serious. The largest damaged area was covered by sclerophyllous vegetation. Damage to the agricultural sector was minimal, but several warehouse buildings were affected. <br/> 
+ <br/>"
+22200,"Main dwellings according to tenancy regime (API identifier: /t20/e244/viviendas/p04/l0/mun02_03.px)Table of INEBase
+Main dwellings according to tenancy regime. National. Population and Housing Censuses","['Regions', 'Society']",en,"Main dwellings according to tenancy regime (API identifier: /t20/e244/viviendas/p04/l0/mun02_03.px)Table of INEBase
+Main dwellings according to tenancy regime. National. Population and Housing Censuses"
+82,"Extent of Serpulid reef and Modiolus modiolus beds in Loch CreranThe purpose of the current study was to initiate site condition monitoring of the reefs of Loch Creran. This was done to establish a baseline biological data set that would facilitate the assessment of the condition of the reef habitats in the future and to allow a judgement to be formed on the current condition of these habitats. The approach taken to achieve these objectives was to assess the extent and distribution of serpulid reefs from observations by diver along 110 transects around the loch. Detailed studies were also performed at four of the major serpulid reef sites in the loch. Here, distribution was examined with sidescan sonar, reef density by video and the community of organisms associated with the habitat by diver survey of the reefs themselves and of the surrounding sediment. The distribution and abundance of Modiolus was examined along seven relocatable transects and, at one of the major mussel beds, the size structure of the population and associated community surveyed. Subtidal rocky reefs were surveyed by diver along relocatable transects at three sites.",['Environment'],en,"Extent of Serpulid reef and Modiolus modiolus beds in Loch CreranThe purpose of the current study was to initiate site condition monitoring of the reefs of Loch Creran. This was done to establish a baseline biological data set that would facilitate the assessment of the condition of the reef habitats in the future and to allow a judgement to be formed on the current condition of these habitats. The approach taken to achieve these objectives was to assess the extent and distribution of serpulid reefs from observations by diver along 110 transects around the loch. Detailed studies were also performed at four of the major serpulid reef sites in the loch. Here, distribution was examined with sidescan sonar, reef density by video and the community of organisms associated with the habitat by diver survey of the reefs themselves and of the surrounding sediment. The distribution and abundance of Modiolus was examined along seven relocatable transects and, at one of the major mussel beds, the size structure of the population and associated community surveyed. Subtidal rocky reefs were surveyed by diver along relocatable transects at three sites."
+20941,"Limitation on activities of daily living in the last 6 months by sex and social class based on the reference person's occupation. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p04/l0/06002.px)Table of INEBase
+Limitation on activities of daily living in the last 6 months by sex and social class based on the reference person's occupation. Population aged 15 years old and over. National. European Health Survey",['Health'],en,"Limitation on activities of daily living in the last 6 months by sex and social class based on the reference person's occupation. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p04/l0/06002.px)Table of INEBase
+Limitation on activities of daily living in the last 6 months by sex and social class based on the reference person's occupation. Population aged 15 years old and over. National. European Health Survey"
+20045,"Personal interno en innovación, por comunidades y ciudades autónomas. (API identifier: /t14/p061/a2020/l0/08001.px)Table of INEBase
+Personal interno en innovación, por comunidades y ciudades autónomas. Innovation in Companies Survey",['Technology'],es,"Internal personnel in innovation, by autonomous communities and cities. (API IDENTIFIER: /T14/P061/A2020/L0/08001.px)
+Internal personnel in innovation, by autonomous communities and cities. Innovation in Companies Survey"
+20534,"Degree of pain suffered in the last four weeks by sex and Autonomous Community. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p01/l0/12004.px)Table of INEBase
+Degree of pain suffered in the last four weeks by sex and Autonomous Community. Population aged 15 years old and over. National. European Health Survey",['Health'],en,"Degree of pain suffered in the last four weeks by sex and Autonomous Community. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p01/l0/12004.px)Table of INEBase
+Degree of pain suffered in the last four weeks by sex and Autonomous Community. Population aged 15 years old and over. National. European Health Survey"
+17784,"Personal por Sexo, Tipo de tarea/nivel educativo y Comunidades y Ciudades Autónomas (API identifier: /t13/p122/2015/p01/l0/02013.px)Table of INEBase
+Personal por Sexo, Tipo de tarea/nivel educativo y Comunidades y Ciudades Autónomas. Private Education Financing and Expenditure Statistic",['Education'],es,"Personnel by sex, type of task/educational level and autonomous communities and cities (API identifier: /t13/p122/2015/p01/l0/02013.px)
+Personnel by sex, type of task/educational level and autonomous communities and cities. Private Education Financing and Expenditure Statistics"
+6597,"Greek-English parallel corpus from EQF Referencing Report (Processed)Greek-English parallel corpus from EQF Referencing Report
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.",['Government'],en,"Greek-English parallel corpus from EQF Referencing Report (Processed)Greek-English parallel corpus from EQF Referencing Report
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu."
+461,Species and habitats - Spondyliosoma cantharus - Immature - Preferential habitat in October modelled by Generalised Linear Modelling and its uncertainty with CGFS dataModelised abundance of species or prediction uncertainty.,['Environment'],en,Species and habitats - Spondyliosoma cantharus - Immature - Preferential habitat in October modelled by Generalised Linear Modelling and its uncertainty with CGFS dataModelised abundance of species or prediction uncertainty.
+20779,"Body Mass Index of the minor population. Population aged 15 to 17 years old. (API identifier: /t15/p420/a2019/p03/l0/01008.px)Table of INEBase
+Body Mass Index of the minor population. Population aged 15 to 17 years old. National. European Health Survey",['Health'],en,"Body Mass Index of the minor population. Population aged 15 to 17 years old. (API identifier: /t15/p420/a2019/p03/l0/01008.px)Table of INEBase
+Body Mass Index of the minor population. Population aged 15 to 17 years old. National. European Health Survey"
+22201,"Main dwellings according to household size by useful surface (API identifier: /t20/e244/viviendas/p04/l0/mun02_05.px)Table of INEBase
+Main dwellings according to household size by useful surface. National. Population and Housing Censuses","['Regions', 'Society']",en,"Main dwellings according to household size by useful surface (API identifier: /t20/e244/viviendas/p04/l0/mun02_05.px)Table of INEBase
+Main dwellings according to household size by useful surface. National. Population and Housing Censuses"
+17427,"Titulados de máster según hubieran tenido un empleo antes de comenzar los estudios por sexo y titulación (API identifier: /t13/p100/2019/p03/l0/09007.px)Table of INEBase
+Titulados de máster según hubieran tenido un empleo antes de comenzar los estudios por sexo y titulación. National. Survey on the Labour Insertion of University Graduates","['Economy', 'Education']",es,"Master's degrees as they had had a job before starting studies by sex and degree (API Identifier: /t13/p100/2019/p03/l0/09007.px)
+Master's degrees as they had had a job before starting studies by sex and degree. National Survey On The Labour Insertion of University Graduates"
+12655,"Copper sheet; technology mix; market mix, at plant; 0,6 mm thickness; Hot and Cold Rolling based on melting and casting a mix of Copper cathode and Copper scrap; Technology and Market Mix for Sheet fabrication representing main European production countries, Market Mix for Copper cathode in Europe (primary and secondary Cu cathode production in Europe as well as Cu cathode import into Europe); 1000 kg Copper sheet (Location: EU-25)The data set is part of a LCA study on copper products. The study is based on recent industry data supplied by the European copper industry, and thus reflecting the reality in copper semis fabrication. In comparing copper architectural sheets with other roofing and facade materials by means of Life Cycle Assessment should be based on the functional unit, with a sheet thickness of 0.6 mm. This thickness is the most commonly available in the market today for roofing purposes. The use phase of copper roofing is one of the longest, easily reaching well beyond 100 years. Copper church roofs still functional after more than 500 years are known. The type of covering and the inclination of the roof should also be considered. The mass of one m2 of sheet may not necessarily be equivalent to one m2 of roof or one m2 of building surface. The specific properties of each material, the underlying support structures and the design all need to be considered. Many cradle to grave life cycle assessment studies have shown that the environmental aspects from the use and end of life phases of products are often significant. The economic value of copper scrap, based on its ability to be recycled 100% without any loss in performance, must be included in comparative assessments.
+
+Technical Purpose: Copper sheet is typically used in building and construction (roofing, cladding, etc.). For industrial use e.g. electrical engineering the thickness is in general finer.
+
+Geographical Representation: EU-25","['Environment', 'Technology']",en,"Copper sheet; technology mix; market mix, at plant; 0,6 mm thickness; Hot and Cold Rolling based on melting and casting a mix of Copper cathode and Copper scrap; Technology and Market Mix for Sheet fabrication representing main European production countries, Market Mix for Copper cathode in Europe (primary and secondary Cu cathode production in Europe as well as Cu cathode import into Europe); 1000 kg Copper sheet (Location: EU-25)The data set is part of a LCA study on copper products. The study is based on recent industry data supplied by the European copper industry, and thus reflecting the reality in copper semis fabrication. In comparing copper architectural sheets with other roofing and facade materials by means of Life Cycle Assessment should be based on the functional unit, with a sheet thickness of 0.6 mm. This thickness is the most commonly available in the market today for roofing purposes. The use phase of copper roofing is one of the longest, easily reaching well beyond 100 years. Copper church roofs still functional after more than 500 years are known. The type of covering and the inclination of the roof should also be considered. The mass of one m2 of sheet may not necessarily be equivalent to one m2 of roof or one m2 of building surface. The specific properties of each material, the underlying support structures and the design all need to be considered. Many cradle to grave life cycle assessment studies have shown that the environmental aspects from the use and end of life phases of products are often significant. The economic value of copper scrap, based on its ability to be recycled 100% without any loss in performance, must be included in comparative assessments.
+
+Technical Purpose: Copper sheet is typically used in building and construction (roofing, cladding, etc.). For industrial use e.g. electrical engineering the thickness is in general finer.
+
+Geographical Representation: EU-25"
+13145,"Natural susceptibility to soil compaction in EuropeMap (2008) showing the natural susceptibility of agricultural soils to compaction if they were to be exposed to compaction, based on the creation of logical connections between relevant parameters (using pedotransfer rules), taking as input parameters attributes of the European soil database (soil type, texture, etc.). For EU-27.",['Technology'],en,"Natural susceptibility to soil compaction in EuropeMap (2008) showing the natural susceptibility of agricultural soils to compaction if they were to be exposed to compaction, based on the creation of logical connections between relevant parameters (using pedotransfer rules), taking as input parameters attributes of the European soil database (soil type, texture, etc.). For EU-27."
+28347,"Emigration flow abroad by semester, country of birth and nationality (Spanish/foreign). EM (API identifier: 24401)Table of INEBase
+Emigration flow abroad by semester, country of birth and nationality (Spanish/foreign). Semi-annual. Migration Statistic",['Society'],en,"Emigration flow abroad by semester, country of birth and nationality (Spanish/foreign). EM (API identifier: 24401)Table of INEBase
+Emigration flow abroad by semester, country of birth and nationality (Spanish/foreign). Semi-annual. Migration Statistic"
+18513,"Titulados en Bachillerato que han residido fuera de España tras acabar los estudios en 2014 según los países o regiones a los que se han trasladado por país o región de residencia (API identifier: /t13/p451/2019/p04/l0/13011.px)Table of INEBase
+Titulados en Bachillerato que han residido fuera de España tras acabar los estudios en 2014 según los países o regiones a los que se han trasladado por país o región de residencia. National. Survey on the Transition from Education/Training to Labour Market Insertion","['Economy', 'Education']",es,"Entitled in Baccalaureate that have resided outside Spain after finishing the studies in 2014 according to the countries or regions to which they have moved by country or residence region (API Identifier: /T13/P451/2019/P04/L0/13011.px ) Table of inebse
+Entitled in Baccalaureate that have resided outside Spain after finishing the studies in 2014 according to the countries or regions to which they have moved by the country or residence region. National Survey on the Transition from Education/Training to Labour Market Insertion"
+21148,"Type of accident and emergency service used in the last 12 months by sex and country of birth. Population aged 15 years old and over that had used any accident and emergency service  in the last  ...  (API identifier: /t15/p420/a2019/p05/l0/04014.px)Table of INEBase
+Type of accident and emergency service used in the last 12 months by sex and country of birth. Population aged 15 years old and over that had used any accident and emergency service  in the last 12 months. National. European Health Survey",['Health'],en,"Type of accident and emergency service used in the last 12 months by sex and country of birth. Population aged 15 years old and over that had used any accident and emergency service  in the last  ...  (API identifier: /t15/p420/a2019/p05/l0/04014.px)Table of INEBase
+Type of accident and emergency service used in the last 12 months by sex and country of birth. Population aged 15 years old and over that had used any accident and emergency service  in the last 12 months. National. European Health Survey"
+28347,"Emigration flow abroad by semester, country of birth and nationality (Spanish/foreign). EM (API identifier: 24401)Table of INEBase
+Emigration flow abroad by semester, country of birth and nationality (Spanish/foreign). Semi-annual. Migration Statistic",['Society'],en,"Emigration flow abroad by semester, country of birth and nationality (Spanish/foreign). EM (API identifier: 24401)Table of INEBase
+Emigration flow abroad by semester, country of birth and nationality (Spanish/foreign). Semi-annual. Migration Statistic"
+6895,"English-Finnish corpus from Finnish Information Bank (Processed)http://www.infopankki.fi - Finland in your language - Information about Finland - Moving to Finland - Living in Finland
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.","['Education', 'Health', 'Society']",en,"English-Finnish corpus from Finnish Information Bank (Processed)http://www.infopankki.fi - Finland in your language - Information about Finland - Moving to Finland - Living in Finland
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu."
+25351,"Criminal offences according to sex. CONM (API identifier: 26034)Table of INEBase
+Criminal offences according to sex. Annual. Provinces. Conviction Statistics: Minors",['Justice'],en,"Criminal offences according to sex. CONM (API identifier: 26034)Table of INEBase
+Criminal offences according to sex. Annual. Provinces. Conviction Statistics: Minors"
+27717,"Structure according to professional situation of the main breadwinner. EPF (API identifier: 24970)Table of INEBase
+Structure according to professional situation of the main breadwinner. Annual. National. Household Budget Survey (HBS)",['Society'],en,"Structure according to professional situation of the main breadwinner. EPF (API identifier: 24970)Table of INEBase
+Structure according to professional situation of the main breadwinner. Annual. National. Household Budget Survey (HBS)"
+17147,"Graduados universitarios según la utilidad de su titulación para encontrar trabajo por sexo y titulación (API identifier: /t13/p100/2019/p02/l0/08016.px)Table of INEBase
+Graduados universitarios según la utilidad de su titulación para encontrar trabajo por sexo y titulación. National. Survey on the Labour Insertion of University Graduates","['Economy', 'Education']",es,"University graduates according to the usefulness of their degree to find work by sex and degree (API Identifier: /t13/P100/2019/P02/L0/08016.px)
+University graduates according to the usefulness of their degree to find work by sex and degree. National Survey On The Labour Insertion of University Graduates"
+4212,"Ebola outbreak in the Democratic Republic of Congo (2018-05-17)<br/> 
+Activation time (UTC): 2018-05-17 11:03:00<br/> 
+Event time (UTC): 2018-05-17 12:00:00<br/> 
+Event type: Epidemic (Viral disease)<br/> 
+<br/> 
+Activation reason: <br/> 
+The Government of the Democratic Republic of Congo declared a new outbreak of Ebola virus disease (EVD) in Bikoro in Equateur Province on 8th May 2018. 
+As of 16 May 2018, a total of 44 Ebola virus disease cases (confirmed, probable and suspected) were reported, all of them at Bikoro and Mbandaka.<br/> 
+<br/> 
+Reference products: 3<br/> 
+Delineation products: 0<br/> 
+Grading products: 0<br/> 
+<br/> 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.<br/>","['Regions', 'Technology']",en,"Ebola outbreak in the Democratic Republic of Congo (2018-05-17)<br/> 
+Activation time (UTC): 2018-05-17 11:03:00<br/> 
+Event time (UTC): 2018-05-17 12:00:00<br/> 
+Event type: Epidemic (Viral disease)<br/> 
+<br/> 
+Activation reason: <br/> 
+The Government of the Democratic Republic of Congo declared a new outbreak of Ebola virus disease (EVD) in Bikoro in Equateur Province on 8th May 2018. 
+As of 16 May 2018, a total of 44 Ebola virus disease cases (confirmed, probable and suspected) were reported, all of them at Bikoro and Mbandaka.<br/> 
+<br/> 
+Reference products: 3<br/> 
+Delineation products: 0<br/> 
+Grading products: 0<br/> 
+<br/> 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.<br/>"
+19771,"Actividades de educación no formal realizadas en los últimos 12 meses según realización o no de cada actividad en horas de trabajo remuneradas, por máximo nivel de estudios alcanzado por las pers ...  (API identifier: /t13/p459/a2016/p04/l0/04021.px)Table of INEBase
+Actividades de educación no formal realizadas en los últimos 12 meses según realización o no de cada actividad en horas de trabajo remuneradas, por máximo nivel de estudios alcanzado por las personas que las realizan. National. Survey on Adult Population Involvement in Learning Activities","['Economy', 'Education']",es,"Non -formal education activities carried out in the last 12 months depending on or not of each activity in remunerated work hours, by the highest level of studies achieved by the PERS ... (API Identifier:/T13/P459/A2016/P04/L0 /04021.px)
+Non -formal education activities carried out in the last 12 months depending on the realization or not of each activity during paid work hours, by the highest level of studies achieved by the people who carry them out. National Survey on Adult Population Involvement in Learning Activities"
+211,INSPIRE Dataset for Transport networks ThemeTransport networks - Annex 1,['Transport'],en,INSPIRE Dataset for Transport networks ThemeTransport networks - Annex 1
+5509,"CORDIS - EU research projects under FP5 (1998-2002)This dataset contains all projects funded by the European Union under the fifth framework programme for research and technological development (FP5) from 1998 to 2002.
+
+The file 'FP5 Projects' contains the public grant information for each project, including the following information: Record Control Number (RCN), project ID (grant agreement number), project acronym, project status, funding programme, topic, project title, project start date, project end date, project objective, project total cost, EC max contribution (commitment), call ID, funding scheme (type of action), coordinator, coordinator country, participants (ordered in a semi-colon separated list), participant countries (ordered in a semi-colon separated list).
+
+The participating organisations are listed in the file 'FP5 Organisations' which includes: project Record Control Number (RCN), project ID, project acronym, organisation role, organisation ID, organisation name, organisation short name, organisation type, participation ended (true/false), EC contribution, organisation country.
+
+**The dataset has been updated to match the structure of more recent datasets - some fields may not be populated.**
+
+Reference data (countries, funding schemes/types of action, subjects (SIC codes)) can be found in this dataset: https://data.europa.eu/euodp/en/data/dataset/cordisref-data","['Government', 'Technology']",en,"CORDIS - EU research projects under FP5 (1998-2002)This dataset contains all projects funded by the European Union under the fifth framework programme for research and technological development (FP5) from 1998 to 2002.
+
+The file 'FP5 Projects' contains the public grant information for each project, including the following information: Record Control Number (RCN), project ID (grant agreement number), project acronym, project status, funding programme, topic, project title, project start date, project end date, project objective, project total cost, EC max contribution (commitment), call ID, funding scheme (type of action), coordinator, coordinator country, participants (ordered in a semi-colon separated list), participant countries (ordered in a semi-colon separated list).
+
+The participating organisations are listed in the file 'FP5 Organisations' which includes: project Record Control Number (RCN), project ID, project acronym, organisation role, organisation ID, organisation name, organisation short name, organisation type, participation ended (true/false), EC contribution, organisation country.
+
+**The dataset has been updated to match the structure of more recent datasets - some fields may not be populated.**
+
+Reference data (countries, funding schemes/types of action, subjects (SIC codes)) can be found in this dataset: https://data.europa.eu/euodp/en/data/dataset/cordisref-data"
+6550,"Vienna Environmental Report2004/2005 (Processed)2221 Translation Pairs (DE-AT, EN) in a report on environment by the City of Vienna (Stadt Wien). In a stripped and validated TMX file.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.",['Government'],en,"Vienna Environmental Report2004/2005 (Processed)2221 Translation Pairs (DE-AT, EN) in a report on environment by the City of Vienna (Stadt Wien). In a stripped and validated TMX file.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu."
+22076,"Cantabria: Units by unit type (API identifier: /t20/e244/nucleos/p04/l0/mun39_11.px)Table of INEBase
+Cantabria: Units by unit type. National. Population and Housing Censuses","['Regions', 'Society']",en,"Cantabria: Units by unit type (API identifier: /t20/e244/nucleos/p04/l0/mun39_11.px)Table of INEBase
+Cantabria: Units by unit type. National. Population and Housing Censuses"
+26511,"Employed persons with secondary employment by sex and economic sector of the main and secondary jobs. EPA (API identifier: 4372)Table of INEBase
+Employed persons with secondary employment by sex and economic sector of the main and secondary jobs. Quarterly. National. Economically Active Population Survey",['Economy'],en,"Employed persons with secondary employment by sex and economic sector of the main and secondary jobs. EPA (API identifier: 4372)Table of INEBase
+Employed persons with secondary employment by sex and economic sector of the main and secondary jobs. Quarterly. National. Economically Active Population Survey"
+10707,"European Parliament election. Voting rates among Swedish citizens registered in Sweden by region, sex and age (survey). Election year 2004 - 2014European Parliament election. Voting rates among Swedish citizens registered in Sweden by region, sex, age, observations and election year",['Government'],en,"European Parliament election. Voting rates among Swedish citizens registered in Sweden by region, sex and age (survey). Election year 2004 - 2014European Parliament election. Voting rates among Swedish citizens registered in Sweden by region, sex, age, observations and election year"
+24054,"Frecuencia semanal con la que utilizan cada una de estas alternativas las mujeres que conviven con hijos menores de 14 años según el tramo de edad en el que se encuentran sus hijos (API identifier: /t20/p317/a2018/def/p03/e01/l0/05012.px)Table of INEBase
+Frecuencia semanal con la que utilizan cada una de estas alternativas las mujeres que conviven con hijos menores de 14 años según el tramo de edad en el que se encuentran sus hijos. Comunidades y Ciudades Autónomas. Encuesta de Fecundidad","['Health', 'Society']",es,"Weekly frequency with which each of these alternatives use women who live with children under 14 years according to the age section in which their children are (API Identifier:/T20/P317/A2018/Def/P03/E01/ l0/05012.px) table of inebase
+Weekly frequency with which each of these alternatives use women who live with children under 14 years of age according to the age stretch in which their children are. Autonomous communities and cities. Fertility survey"
+24380,"Employed by type of working day and age group (API identifier: /t22/p320/base_2015/serie/l0/04006.px)Table of INEBase
+Employed by type of working day and age group. National. Statistics on the Employment of Persons with Disabilities","['Economy', 'Society']",en,"Employed by type of working day and age group (API identifier: /t22/p320/base_2015/serie/l0/04006.px)Table of INEBase
+Employed by type of working day and age group. National. Statistics on the Employment of Persons with Disabilities"
+6129,Wind - radar 5 minute wind profiles Den Helder - archiveArchive of wind profiles derived from radar radial velocity measurements for the radar in Den Helder. Time interval is 5 minutes. Data have been archived in one .tar file per day.,['Environment'],en,Wind - radar 5 minute wind profiles Den Helder - archiveArchive of wind profiles derived from radar radial velocity measurements for the radar in Den Helder. Time interval is 5 minutes. Data have been archived in one .tar file per day.
+487,Species and habitats - Inachus - Multi-annual Abundance  in October - CGFS (2007-2009)Biologic data have been expressed in abundance (numbers or density values (nbr/km²)) and always required to be log-transformed using a log10(x+1) transformation.,['Environment'],en,Species and habitats - Inachus - Multi-annual Abundance  in October - CGFS (2007-2009)Biologic data have been expressed in abundance (numbers or density values (nbr/km²)) and always required to be log-transformed using a log10(x+1) transformation.
+14588,"Flash Eurobarometer 89: Dialogue avec les citoyensPour mesurer les effets des efforts d'information et de sensibilisation du public, en matière de droits personnels.
+#####The results by volumes are distributed as follows:
+* Volume A: Countries
+* Volume AA: Groups of countries
+* Volume A' (AP): Trends
+* Volume AA' (AAP): Trends of groups of countries
+* Volume B: EU/socio-demographics
+* Volume B' (BP) : Trends of EU/ socio-demographics 
+* Volume C: Country/socio-demographics
+  ----
+Researchers may also contact GESIS - Leibniz Institute for the Social Sciences: [https://www.gesis.org/eurobarometer](https://www.gesis.org/eurobarometer)",['Government'],fr,"Flash Eurobarometer 89: Dialogue with citizens to measure the effects of information and public awareness efforts, in matters of personal rights.
+#### The results by volumes are distributed as follows:
+* Volume A: Countries
+* AA volume: Groups of Countries
+* Volume A '(AP): Trends
+* Volume AA '(AAP): Trends of Groups of Countries
+* Volume B: EU/Socio-Demographics
+* Volume B '(BP): Trends of EU/ Socio-Demographics
+* Volume C: Country/Socio-Demographics
+  ----
+Researchers May also contact Gesis - Leibniz Institute for the Social Sciences: [https://www.gesis.org/eurobarometeroquerquerts://www.gesis.org/eurobarometer)"
+29790,Youth hostelsLocation of the youth hotels on the territory of the City of Brussels.,"['Economy', 'Regions']",en,Youth hostelsLocation of the youth hotels on the territory of the City of Brussels.
+24276,"Persons aged 16 to 74 who are employed or who previously worked, according to whether or not they have had an illness, by sex and age group. EPA (API identifier: /t22/e308/meto_05/modulo/base_2011/2020/l0/02001.px)Table of INEBase
+Persons aged 16 to 74 who are employed or who previously worked, according to whether or not they have had an illness, by sex and age group. National. Economically Active Population Survey",['Economy'],en,"Persons aged 16 to 74 who are employed or who previously worked, according to whether or not they have had an illness, by sex and age group. EPA (API identifier: /t22/e308/meto_05/modulo/base_2011/2020/l0/02001.px)Table of INEBase
+Persons aged 16 to 74 who are employed or who previously worked, according to whether or not they have had an illness, by sex and age group. National. Economically Active Population Survey"
+6486,"EFAS threshold level exceedanceThis data set contains for all locations across Europen rivers for which EFAS is predicting floods specifications on the time and magnitude of the forecasted flood peak.
+
+The magnitude is indicated by the highest EFAS threshold level exceeded (2-,5- and 20-year return period), while the timing is given as number of days (0-10 days) till the reach of the flood peak.
+
+This information is produced by the operational EFAS (www.efas.eu) in order to provide the EFAS partners with an up-to-date overview on the evolution (quantitative and temporal) of flood peaks through affected rivers across Europe.
+
+The update frequency of this data set is twice a day (00:00 and 12:00 UTC); and the spatial coverage is the extended geographic Europe.","['Environment', 'Health', 'Technology']",en,"EFAS threshold level exceedanceThis data set contains for all locations across Europen rivers for which EFAS is predicting floods specifications on the time and magnitude of the forecasted flood peak.
+
+The magnitude is indicated by the highest EFAS threshold level exceeded (2-,5- and 20-year return period), while the timing is given as number of days (0-10 days) till the reach of the flood peak.
+
+This information is produced by the operational EFAS (www.efas.eu) in order to provide the EFAS partners with an up-to-date overview on the evolution (quantitative and temporal) of flood peaks through affected rivers across Europe.
+
+The update frequency of this data set is twice a day (00:00 and 12:00 UTC); and the spatial coverage is the extended geographic Europe."
+18131,"Graduados en ESO según hubieran trabajado mientras estudiaban el mismo por sexo y tipo de centro (API identifier: /t13/p451/2019/p02/l0/10001.px)Table of INEBase
+Graduados en ESO según hubieran trabajado mientras estudiaban el mismo por sexo y tipo de centro. National. Survey on the Transition from Education/Training to Labour Market Insertion","['Economy', 'Education']",es,"Graduated in that as they had worked while studying the same by sex and type of center (Api Identifier: /t13/p451/2019/p02/l0/10001.px)
+Graduated in that as they had worked while studying the same by sex and type of center. National Survey on the Transition from Education/Training to Labour Market Insertion"
+7451,"L3C hourly Sea Surface Temperature (GHRSST) - MSGHourly sub-skin Sea Surface Temperature product derived from Meteosat at 0° longitude, covering 60S-60N and 60W-60E and re-projected on a 0.05° regular grid. The product format is compliant with the Data Specification (GDS) version 2 from the Group for High Resolution Sea Surface Temperatures (GHRSST).
+
+This Meteosat-11 based product is available only from 20/02/2018. For data before this date, we advice you to use the
+2004-2012: L3C hourly Sea Surface Temperature (GHRSST) data record release 1 - MSG which is in the same GHRSST-compliant format
+2011-2017: L3C hourly Sea Surface Temperature (GRIB) - MSG which is in GRIB format. The same data but in GHRSST-compliant format can be found on the OSI SAF LML FTP server (Ifremer).",['Environment'],en,"L3C hourly Sea Surface Temperature (GHRSST) - MSGHourly sub-skin Sea Surface Temperature product derived from Meteosat at 0° longitude, covering 60S-60N and 60W-60E and re-projected on a 0.05° regular grid. The product format is compliant with the Data Specification (GDS) version 2 from the Group for High Resolution Sea Surface Temperatures (GHRSST).
+
+This Meteosat-11 based product is available only from 20/02/2018. For data before this date, we advice you to use the
+2004-2012: L3C hourly Sea Surface Temperature (GHRSST) data record release 1 - MSG which is in the same GHRSST-compliant format
+2011-2017: L3C hourly Sea Surface Temperature (GRIB) - MSG which is in GRIB format. The same data but in GHRSST-compliant format can be found on the OSI SAF LML FTP server (Ifremer)."
+1381,"Mudflow in Freetown, Sierra Leone (2017-08-15)<br/> 
+Activation time (UTC): 2017-08-15 16:05:00<br/> 
+Event time (UTC): 2017-08-14 23:55:00<br/> 
+Event type: Mass movement (Mudflow)<br/> 
+<br/> 
+Activation reason: <br/> 
+More than 300 people have been killed in Freetown after houses are submerged by mudflows and rivers after a mudslide and heavy flooding in Freetown, Regent area, Sierra Leone.
+However, a precise death toll is not yet clear and is likely to rise as many people might have been asleep when the mudslide happened in the early hours of Monday. 
+An estimated 2,000 people have also been made homeless after heavy rains caused properties to disappear under water.
+Flash floods are reported in 13 communities of the capital area. Heavy rains on 15-16 Aug might lead to further severe flooding.<br/> 
+<br/> 
+Reference products: 0<br/> 
+Delineation products: 0<br/> 
+Grading products: 2<br/> 
+<br/> 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.<br/>","['Regions', 'Technology']",en,"Mudflow in Freetown, Sierra Leone (2017-08-15)<br/> 
+Activation time (UTC): 2017-08-15 16:05:00<br/> 
+Event time (UTC): 2017-08-14 23:55:00<br/> 
+Event type: Mass movement (Mudflow)<br/> 
+<br/> 
+Activation reason: <br/> 
+More than 300 people have been killed in Freetown after houses are submerged by mudflows and rivers after a mudslide and heavy flooding in Freetown, Regent area, Sierra Leone.
+However, a precise death toll is not yet clear and is likely to rise as many people might have been asleep when the mudslide happened in the early hours of Monday. 
+An estimated 2,000 people have also been made homeless after heavy rains caused properties to disappear under water.
+Flash floods are reported in 13 communities of the capital area. Heavy rains on 15-16 Aug might lead to further severe flooding.<br/> 
+<br/> 
+Reference products: 0<br/> 
+Delineation products: 0<br/> 
+Grading products: 2<br/> 
+<br/> 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.<br/>"
+26005,"National classes indices. IPRI (API identifier: 27075)Table of INEBase
+National classes indices. Annual. Industrial Price Indices",['Economy'],en,"National classes indices. IPRI (API identifier: 27075)Table of INEBase
+National classes indices. Annual. Industrial Price Indices"
+11114,"Gainfully employed 16-74 years by region of residence (RAMS), at national level, industry SNI2007, status in employment, age and sex. Year 2019 - 2020Gainfully employed 16+ years by region of residence (RAMS) by industrial classification NACE Rev. 2, status in employment, age, sex, observations and year",['Society'],en,"Gainfully employed 16-74 years by region of residence (RAMS), at national level, industry SNI2007, status in employment, age and sex. Year 2019 - 2020Gainfully employed 16+ years by region of residence (RAMS) by industrial classification NACE Rev. 2, status in employment, age, sex, observations and year"
+17841,"Gastos corrientes (Valores absolutos) por Tipo de gasto y Tamaño de centro (API identifier: /t13/p122/2015/p02/l0/07004.px)Table of INEBase
+Gastos corrientes (Valores absolutos) por Tipo de gasto y Tamaño de centro. National. Private Education Financing and Expenditure Statistic",['Education'],es,"Current expenses (absolute values) by type of spending and center size (API identifier: /t13/p122/2015/p02/l0/07004.px)
+Current expenses (absolute values) by type of spending and center size. National Private Education Financing and Expenditure Statistics"
+10612,"Election to the Riksdag - those entitled to vote among Swedish citizens registered in Sweden by sex and foreign/Swedish background. Number and percent. Year of election 2002 - 2018Election to the Riksdag - those entitled to vote by sex, foreign/Swedish background, observations and election year",['Government'],en,"Election to the Riksdag - those entitled to vote among Swedish citizens registered in Sweden by sex and foreign/Swedish background. Number and percent. Year of election 2002 - 2018Election to the Riksdag - those entitled to vote by sex, foreign/Swedish background, observations and election year"
+18541,"Titulados en Ciclos Formativos de Grado Medio según estudios en los que estaba matriculado en el curso 2015-16 por sexo y ciclo (API identifier: /t13/p451/2019/p05/l0/03012.px)Table of INEBase
+Titulados en Ciclos Formativos de Grado Medio según estudios en los que estaba matriculado en el curso 2015-16 por sexo y ciclo. National. Survey on the Transition from Education/Training to Labour Market Insertion","['Economy', 'Education']",es,"Titled in medium-grade training cycles according to studies in which I was enrolled in the 2015-16 course by sex and cycle (API Identifier: /T13/P451/2019/P05/L0/03012.px)
+Titled in medium-grade training cycles according to studies in which it was enrolled in the 2015-16 academic year by sex and cycle. National Survey on the Transition from Education/Training to Labour Market Insertion"
+10061,"Gross pay, payroll taxes and preliminary tax from employers monthly tax returns, by sector. Quarter 2001K1 - 2022K1Information from employers monthly tax returns by sector, observations and quarter",['Society'],en,"Gross pay, payroll taxes and preliminary tax from employers monthly tax returns, by sector. Quarter 2001K1 - 2022K1Information from employers monthly tax returns by sector, observations and quarter"
+8286,"European Commission  Service for Foreign Policy Instruments  Management Plan 2014Information on the planned actions, outputs and resources of the Service for Foreign Policy Instruments (FPI) in 2014. Data cover both operational and horizontal activities and include: 
+
+- Challenges and priorities of FPI and its funding Instruments
+
+- General objectives, impact indicators and targets for FPI
+
+- Specific objectives, results, results indicators and targets for each Instrument
+
+- Main policy outputs and main expenditure-related outputs
+
+The Service for Foreign Policy Instruments supports the EU to achieve its foreign and security policy objectives, in particular with regards to peace and conflict prevention, and to project the EU's interests and image in the world. Working in a wide range of areas with various partners and stakeholders FPI contributes to the achievement of the general objective of the EU to become 'a stronger global actor'.
+
+To achieve its objective FPI is responsible for the operational and financial management of the budgets for Common Foreign and Security Policy (CFSP), Instrument contributing to Stability and Peace (IcSP), Partnership Instrument (PI), Election Observation Missions (EOMs), Press and Public Diplomacy (PPD) as well as the implementation of Foreign Policy Regulatory Instruments (sanctions, the Kimberley Process on conflict diamonds and the Anti-Torture Regulation). 
+
+FPI delivers on its objectives in an open and accountable fashion.","['Government', 'International']",en,"European Commission  Service for Foreign Policy Instruments  Management Plan 2014Information on the planned actions, outputs and resources of the Service for Foreign Policy Instruments (FPI) in 2014. Data cover both operational and horizontal activities and include: 
+
+- Challenges and priorities of FPI and its funding Instruments
+
+- General objectives, impact indicators and targets for FPI
+
+- Specific objectives, results, results indicators and targets for each Instrument
+
+- Main policy outputs and main expenditure-related outputs
+
+The Service for Foreign Policy Instruments supports the EU to achieve its foreign and security policy objectives, in particular with regards to peace and conflict prevention, and to project the EU's interests and image in the world. Working in a wide range of areas with various partners and stakeholders FPI contributes to the achievement of the general objective of the EU to become 'a stronger global actor'.
+
+To achieve its objective FPI is responsible for the operational and financial management of the budgets for Common Foreign and Security Policy (CFSP), Instrument contributing to Stability and Peace (IcSP), Partnership Instrument (PI), Election Observation Missions (EOMs), Press and Public Diplomacy (PPD) as well as the implementation of Foreign Policy Regulatory Instruments (sanctions, the Kimberley Process on conflict diamonds and the Anti-Torture Regulation). 
+
+FPI delivers on its objectives in an open and accountable fashion."
+28464,"Occupation index (monthly): by Autonomous Communities. ICM (API identifier: 2250)Table of INEBase
+Occupation index (monthly): by Autonomous Communities. Autonomous Communities and Cities. Retail Trade Indices",['Economy'],en,"Occupation index (monthly): by Autonomous Communities. ICM (API identifier: 2250)Table of INEBase
+Occupation index (monthly): by Autonomous Communities. Autonomous Communities and Cities. Retail Trade Indices"
+6433,"ICES Eggs and Larvae dataset (ELDB)Dataset contains data from various ichthyoplankton surveys with different target species, spatial and temporal coverage.",['Environment'],en,"ICES Eggs and Larvae dataset (ELDB)Dataset contains data from various ichthyoplankton surveys with different target species, spatial and temporal coverage."
+22227,"Main dwellings according to construction year (added) by number of rooms (API identifier: /t20/e244/viviendas/p04/l0/mun10_08.px)Table of INEBase
+Main dwellings according to construction year (added) by number of rooms. National. Population and Housing Censuses","['Regions', 'Society']",en,"Main dwellings according to construction year (added) by number of rooms (API identifier: /t20/e244/viviendas/p04/l0/mun10_08.px)Table of INEBase
+Main dwellings according to construction year (added) by number of rooms. National. Population and Housing Censuses"
+24184,"Mujeres que no tienen intención de tener hijos en los próximos 3 años según el motivo más importante de esta decisión y edad. Coeficiente de variación (API identifier: /t20/p317/a2018/def/p04/e01/l0/10003.px)Table of INEBase
+Mujeres que no tienen intención de tener hijos en los próximos 3 años según el motivo más importante de esta decisión y edad. Coeficiente de variación. National. Encuesta de Fecundidad","['Health', 'Society']",es,"Women who have no intention of having children in the next 3 years according to the most important reason for this decision and age. Variation coefficient (API identifier: /t20/p317/a2018/def/p04/e01/l0/10003.px)
+Women who have no intention of having children in the next 3 years according to the most important reason for this decision and age. Coefficient of variation. National Fertility survey"
+20855,"Number of days per week of physical exercise during leisure time by sex and Autonomous Community. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p03/l0/04030.px)Table of INEBase
+Number of days per week of physical exercise during leisure time by sex and Autonomous Community. Population aged 15 years old and over. National. European Health Survey",['Health'],en,"Number of days per week of physical exercise during leisure time by sex and Autonomous Community. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p03/l0/04030.px)Table of INEBase
+Number of days per week of physical exercise during leisure time by sex and Autonomous Community. Population aged 15 years old and over. National. European Health Survey"
+12971,"Process steam from light fuel oil; heat plant; consumption mix, at plant; MJ (Location: BG)Good overall data quality. Energy carrier mix information based on official statistical information including import / export. A detailed heat plant model was used, which combine measured emissions plus calculated values for not measured emissions of e.g. organics or heavy metals. Energy carrier extraction and processing data is of sufficient to good (e.g. refinery) data quality. Inventory is partly based on primary industry data, partly on secondary literature data.
+
+Technical Purpose: Process steam (MJ) at heat plant for final consumers.
+
+Geographical Representation: BG","['Environment', 'Technology']",en,"Process steam from light fuel oil; heat plant; consumption mix, at plant; MJ (Location: BG)Good overall data quality. Energy carrier mix information based on official statistical information including import / export. A detailed heat plant model was used, which combine measured emissions plus calculated values for not measured emissions of e.g. organics or heavy metals. Energy carrier extraction and processing data is of sufficient to good (e.g. refinery) data quality. Inventory is partly based on primary industry data, partly on secondary literature data.
+
+Technical Purpose: Process steam (MJ) at heat plant for final consumers.
+
+Geographical Representation: BG"
+10743,"Concentration averages (yearly averages) in outgoing wastewater by treatment method/size, substance and interval. Every other year 2014 - 2018Concentration averages (yearly averages) in outgoing wastewater by treatment method/size, substance, interval, observations and every other year
+Authority responsible for statistics (SAM): Naturvårdsverket",['Environment'],en,"Concentration averages (yearly averages) in outgoing wastewater by treatment method/size, substance and interval. Every other year 2014 - 2018Concentration averages (yearly averages) in outgoing wastewater by treatment method/size, substance, interval, observations and every other year
+Authority responsible for statistics (SAM): Naturvårdsverket"
+19766,"Actividades de educación no formal realizadas en los últimos 12 meses según sector de estudios de cada actividad, por comunidades autónomas de las personas que las realizan (API identifier: /t13/p459/a2016/p04/l0/04016.px)Table of INEBase
+Actividades de educación no formal realizadas en los últimos 12 meses según sector de estudios de cada actividad, por comunidades autónomas de las personas que las realizan. Comunidades y ciudades autónomas. Survey on Adult Population Involvement in Learning Activities","['Economy', 'Education']",es,"Non -formal education activities carried out in the last 12 months according to the study sector of each activity, by autonomous communities of the people who carry them out (API Identifier: /T13/P459/A2016/P04/L0/04016.PX)
+Non -formal education activities carried out in the last 12 months according to the sector of studies of each activity, by autonomous communities of the people who carry them out. Autonomous communities and cities. Survey on Adult Population Involvement in Learning Activities"
+8042,"European Commission - DG INTPA - development assistance to KribatiInformation on development assistance financed through the EU budget in Kribati. The Directorate-General for International Partnerships is responsible for formulating the EUs international partnership and development policy, with the ultimate goal to reduce poverty, ensure sustainable development, and promote democracy, human rights, and the rule of law across the world. Its main purpose is to implement most of the European Commissions external assistance, through instruments such as the the Neighborhood, Development and International Cooperation Instrument (NDICI). This vital task requires DG INTPA to deliver the EUs development assistance budget in an open and accountable fashion. For this reason, it publishes its data in the International Aid Transparency Initiative (IATI) Registry since 2011.",['International'],en,"European Commission - DG INTPA - development assistance to KribatiInformation on development assistance financed through the EU budget in Kribati. The Directorate-General for International Partnerships is responsible for formulating the EUs international partnership and development policy, with the ultimate goal to reduce poverty, ensure sustainable development, and promote democracy, human rights, and the rule of law across the world. Its main purpose is to implement most of the European Commissions external assistance, through instruments such as the the Neighborhood, Development and International Cooperation Instrument (NDICI). This vital task requires DG INTPA to deliver the EUs development assistance budget in an open and accountable fashion. For this reason, it publishes its data in the International Aid Transparency Initiative (IATI) Registry since 2011."
+26544,"Wage earners by number of overtime hours worked during the week, sex and occupation. EPA (API identifier: 4515)Table of INEBase
+Wage earners by number of overtime hours worked during the week, sex and occupation. Quarterly. National. Economically Active Population Survey",['Economy'],en,"Wage earners by number of overtime hours worked during the week, sex and occupation. EPA (API identifier: 4515)Table of INEBase
+Wage earners by number of overtime hours worked during the week, sex and occupation. Quarterly. National. Economically Active Population Survey"
+5552,"Assessment of flood risk and economic impact, Drin river basin, Balkans (2019-08-02)<br/> 
+Activation date: 2019-08-02 <br/> 
+Event type: Flood <br/> 
+ <br/> 
+Activation reason: <br/> 
+The specific activation focuses on deepening the analysis concerning the occurrence of floods within a transboundary AOI that corresponds to the Drin catchment area and more specifically to the part that extends into four countries, namely Albania, Kosovo, the Former Yugoslavian Republic of Macedonia and Montenegro.The service and the products aim to serve the scope of the Drin River Cooperation agreement on sustainable management of water resources in the Drin catchment area through providing information relevant for risk preparedness (hazard, historical floods and economic risk assessment) and sustainable development (economic assets mapping, economic risk assessment).Historical Analysis of Floods&nbsp;Events of 12/2004 - Bar, Cetinje, Danilovgrad, Nicksic, Podgorica, ShkodraComprehensive knowledge of a number of disasters that occurred in the past is provided through the spatial extent of the floods, mainly linked with rainfall, and assessment of their impact on existing assets, as well as information on Land Use/Cover and existing assets and infrastructures.To efficiently support &quot;informed&quot; decisions on flood risk management activities and planning of prevention, protection and preparedness measures, through accounting for the area characteristics, the flood hazard was assessed.Flood Risk Mapping &ndash; Hazard Assessment&nbsp;Towards reducing the adverse consequences of flooding for both population and economic activity, flood Hazard assessment was implemented within the Drin catchment area.Due to the characteristics of the Drin river basin, for the estimation of the maximum flood extent a morphological approach was deployed for the catchment area upstream of Skadar lake (based upon the Flood Susceptibility Index/FSI), while a hydraulic modelling was implemented for the Buna river, within a mainly flat area of the AOI, from the Skadar lake to the Adriatic Sea (TELEMAC-2D model through using a very high-resolution DEM).Flood Risk Mapping - Economic Risk Assessment&nbsp;The overall economic risk assessment was implemented through the use of the&nbsp;RASOR platform. Hazard assessment data, economic assets and vulnerability information were accounted to generate a percentage damage of the single asset types. The economic risk was then evaluated on the basis of the economic value information of the asset type/category per square metre, and the effective area occupied by each category.&nbsp; <br/> 
+ <br/>","['Regions', 'Technology']",en,"Assessment of flood risk and economic impact, Drin river basin, Balkans (2019-08-02)<br/> 
+Activation date: 2019-08-02 <br/> 
+Event type: Flood <br/> 
+ <br/> 
+Activation reason: <br/> 
+The specific activation focuses on deepening the analysis concerning the occurrence of floods within a transboundary AOI that corresponds to the Drin catchment area and more specifically to the part that extends into four countries, namely Albania, Kosovo, the Former Yugoslavian Republic of Macedonia and Montenegro.The service and the products aim to serve the scope of the Drin River Cooperation agreement on sustainable management of water resources in the Drin catchment area through providing information relevant for risk preparedness (hazard, historical floods and economic risk assessment) and sustainable development (economic assets mapping, economic risk assessment).Historical Analysis of Floods&nbsp;Events of 12/2004 - Bar, Cetinje, Danilovgrad, Nicksic, Podgorica, ShkodraComprehensive knowledge of a number of disasters that occurred in the past is provided through the spatial extent of the floods, mainly linked with rainfall, and assessment of their impact on existing assets, as well as information on Land Use/Cover and existing assets and infrastructures.To efficiently support &quot;informed&quot; decisions on flood risk management activities and planning of prevention, protection and preparedness measures, through accounting for the area characteristics, the flood hazard was assessed.Flood Risk Mapping &ndash; Hazard Assessment&nbsp;Towards reducing the adverse consequences of flooding for both population and economic activity, flood Hazard assessment was implemented within the Drin catchment area.Due to the characteristics of the Drin river basin, for the estimation of the maximum flood extent a morphological approach was deployed for the catchment area upstream of Skadar lake (based upon the Flood Susceptibility Index/FSI), while a hydraulic modelling was implemented for the Buna river, within a mainly flat area of the AOI, from the Skadar lake to the Adriatic Sea (TELEMAC-2D model through using a very high-resolution DEM).Flood Risk Mapping - Economic Risk Assessment&nbsp;The overall economic risk assessment was implemented through the use of the&nbsp;RASOR platform. Hazard assessment data, economic assets and vulnerability information were accounted to generate a percentage damage of the single asset types. The economic risk was then evaluated on the basis of the economic value information of the asset type/category per square metre, and the effective area occupied by each category.&nbsp; <br/> 
+ <br/>"
+27967,"Gross Rate of Emigration to foreign countries per year (API identifier: 36759)Table of INEBase
+Gross Rate of Emigration to foreign countries per year. Annual. Provinces. Population Projections",['Society'],en,"Gross Rate of Emigration to foreign countries per year (API identifier: 36759)Table of INEBase
+Gross Rate of Emigration to foreign countries per year. Annual. Provinces. Population Projections"
+23069,"Married couples  by previous marital status of the husbands, age  group of the husbands, previous marital status of the wives and age  group of the wives. MNPM (API identifier: /t20/e301/matri/a2020/l0/13002.px)Table of INEBase
+Married couples  by previous marital status of the husbands, age  group of the husbands, previous marital status of the wives and age  group of the wives. National. Vital Statistics: Marriages",['Society'],en,"Married couples  by previous marital status of the husbands, age  group of the husbands, previous marital status of the wives and age  group of the wives. MNPM (API identifier: /t20/e301/matri/a2020/l0/13002.px)Table of INEBase
+Married couples  by previous marital status of the husbands, age  group of the husbands, previous marital status of the wives and age  group of the wives. National. Vital Statistics: Marriages"
+28046,"Linking coefficients base January 1964-December 2011. IMM (API identifier: 10759)Table of INEBase
+Linking coefficients base January 1964-December 2011. Monthly. Autonomous Communities and Cities. Energy and Material Price Indices and National Labour Force Indices","['Economy', 'Regions']",en,"Linking coefficients base January 1964-December 2011. IMM (API identifier: 10759)Table of INEBase
+Linking coefficients base January 1964-December 2011. Monthly. Autonomous Communities and Cities. Energy and Material Price Indices and National Labour Force Indices"
+26544,"Wage earners by number of overtime hours worked during the week, sex and occupation. EPA (API identifier: 4515)Table of INEBase
+Wage earners by number of overtime hours worked during the week, sex and occupation. Quarterly. National. Economically Active Population Survey",['Economy'],en,"Wage earners by number of overtime hours worked during the week, sex and occupation. EPA (API identifier: 4515)Table of INEBase
+Wage earners by number of overtime hours worked during the week, sex and occupation. Quarterly. National. Economically Active Population Survey"
+6819,"Parallel English-Icelandic corpus from the contents of Icelandic National Debt Management Agency websiteContents of http://www.lanamal.is website downloaded, aligned and converted into a parallel corpus
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.","['Economy', 'Regions']",en,"Parallel English-Icelandic corpus from the contents of Icelandic National Debt Management Agency websiteContents of http://www.lanamal.is website downloaded, aligned and converted into a parallel corpus
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu."
+17393,"Titulados de máster según el sueldo mensual neto en el  primer empleo por sexo, tipo de universidad y rama de conocimiento (API identifier: /t13/p100/2019/p03/l0/07063.px)Table of INEBase
+Titulados de máster según el sueldo mensual neto en el  primer empleo por sexo, tipo de universidad y rama de conocimiento. National. Survey on the Labour Insertion of University Graduates","['Economy', 'Education']",es,"Master's degrees according to the net monthly salary in the first job by sex, type of university and branch of knowledge (API identifier: /t13/p100/2019/p03/L0/07063.px)
+Master's degrees according to the net monthly salary in the first job by sex, type of university and branch of knowledge. National Survey On The Labour Insertion of University Graduates"
+12412,Tiunda School Uppsala - power measurments 2020 - ! min resolutionMeasurement data for instantaneous effect and energy use at Tiunda school in Uppsala. The measurement takes place on incoming lines in the school's switchgear. The school has about 1200 students and a central kitchen which produces about 2500 portions of food a day and also provides other schools and preschools and nursing homes with food. The service to the school is at 1250 A (amperes).,['Energy'],en,Tiunda School Uppsala - power measurments 2020 - ! min resolutionMeasurement data for instantaneous effect and energy use at Tiunda school in Uppsala. The measurement takes place on incoming lines in the school's switchgear. The school has about 1200 students and a central kitchen which produces about 2500 portions of food a day and also provides other schools and preschools and nursing homes with food. The service to the school is at 1250 A (amperes).
+4699,Species and habitats - Sepia officinalis - All ages - CGFS annual abundance in October 2009Biologic data have been expressed in abundance (numbers or density values (nbr/km²)) and always required to be log-transformed using a log10(x+1) transformation.,['Environment'],en,Species and habitats - Sepia officinalis - All ages - CGFS annual abundance in October 2009Biologic data have been expressed in abundance (numbers or density values (nbr/km²)) and always required to be log-transformed using a log10(x+1) transformation.
+29422,"Population by sex, municipalities and nationality (main nationalities) (API identifier: 33928)Table of INEBase
+Population by sex, municipalities and nationality (main nationalities). Annual. Continuous Register Statistics",['Society'],en,"Population by sex, municipalities and nationality (main nationalities) (API identifier: 33928)Table of INEBase
+Population by sex, municipalities and nationality (main nationalities). Annual. Continuous Register Statistics"
+21049,"Prevalence of active depressive disorders by sex, age group, and educational level. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p04/l0/13011.px)Table of INEBase
+Prevalence of active depressive disorders by sex, age group, and educational level. Population aged 15 years old and over. National. European Health Survey",['Health'],en,"Prevalence of active depressive disorders by sex, age group, and educational level. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p04/l0/13011.px)Table of INEBase
+Prevalence of active depressive disorders by sex, age group, and educational level. Population aged 15 years old and over. National. European Health Survey"
+15979,"Índices de Precios del Sector ServiciosMedir la evolución de los precios aplicados en el sector servicios, en la primera etapa de comercializaciónVariables de estudio: PreciosLa url de acceso se dirige al menú de la operación desde donde se pueden visualizar como html y descargar las diferentes tablas que componen la publicación. La descarga se puede realizar en formato pc-axis, excel y CSV",['Economy'],es,"Price indices of the Services Sector The evolution of the prices applied in the services sector, in the first stage of marketing markets: prices the access URL is directed to the operation menu from where they can be visualized as HTML and download the different tables that compose the publication. The download can be made in PC-Axis, Excel and CSV format"
+6450,"Forest and bog fire in Latvia (2021-07-27)<br/> 
+Activation time (UTC): 2021-07-27 10:40:00<br/> 
+Event time (UTC): 2021-07-26 06:13:00<br/> 
+Event type: Wildfire (Land fire: brush, bush, pasture)<br/> 
+<br/> 
+Activation reason: <br/> 
+Due to the extreme weather conditions (heat and drought), on 26 July 2021 the forest and bog wildfire broke out in the nature conservation and specially protected area, in the Sigulda municipality, Ledurga parish. The cause of wildfire is unclear as it is scattered in separate locations. The combination of different circumstances, such as hard-to-access conditions, shortage of open-water sources and radio communication troubles in rural area, the situation may worsen<br/> 
+<br/> 
+Reference products: 0<br/> 
+Delineation products: 0<br/> 
+Grading products: 0<br/> 
+<br/> 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.<br/>","['Regions', 'Technology']",en,"Forest and bog fire in Latvia (2021-07-27)<br/> 
+Activation time (UTC): 2021-07-27 10:40:00<br/> 
+Event time (UTC): 2021-07-26 06:13:00<br/> 
+Event type: Wildfire (Land fire: brush, bush, pasture)<br/> 
+<br/> 
+Activation reason: <br/> 
+Due to the extreme weather conditions (heat and drought), on 26 July 2021 the forest and bog wildfire broke out in the nature conservation and specially protected area, in the Sigulda municipality, Ledurga parish. The cause of wildfire is unclear as it is scattered in separate locations. The combination of different circumstances, such as hard-to-access conditions, shortage of open-water sources and radio communication troubles in rural area, the situation may worsen<br/> 
+<br/> 
+Reference products: 0<br/> 
+Delineation products: 0<br/> 
+Grading products: 0<br/> 
+<br/> 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.<br/>"
+5498,Concept status Named Authority ListThis table is an internal table at the Publications Office and provides the various statuses used in a harmonized way amongst the various tables (NALs).     OP,['Government'],en,Concept status Named Authority ListThis table is an internal table at the Publications Office and provides the various statuses used in a harmonized way amongst the various tables (NALs).     OP
+22477,"Dwellings by municipalities (with over 50,000 inhabitants or capitals), type of housing and year of construction (aggregate) of the building (API identifier: /t20/e244/viviendas/p06/l0/11mun51.px)Table of INEBase
+Dwellings by municipalities (with over 50,000 inhabitants or capitals), type of housing and year of construction (aggregate) of the building. Population and Housing Censuses","['Regions', 'Society']",en,"Dwellings by municipalities (with over 50,000 inhabitants or capitals), type of housing and year of construction (aggregate) of the building (API identifier: /t20/e244/viviendas/p06/l0/11mun51.px)Table of INEBase
+Dwellings by municipalities (with over 50,000 inhabitants or capitals), type of housing and year of construction (aggregate) of the building. Population and Housing Censuses"
+2840,"ORCA North Shields- IJmuiden 2014 datasetA team of up to four trained volunteers including at least one highly experienced observer recorded cetacean sightings using line transect distance sampling methods from a ferry crossing the North Sea between North Shields, UK and IJmuiden, Netherlands. Two observers searched a 100° area from either side of the ship with a 10° overlap on the trackline to satisfy the assumption that all animals on the trackline are detected while one observer recorded data and the other rested. Effort information including location, vessel speed, course of vessel and environmental conditions (sea state, swell, precipitation, glare and visibility) were recorded every 30 minutes when observers rotated or when conditions changed. Glare was originally recorded as the position of glare relative to the ship.",['Environment'],en,"ORCA North Shields- IJmuiden 2014 datasetA team of up to four trained volunteers including at least one highly experienced observer recorded cetacean sightings using line transect distance sampling methods from a ferry crossing the North Sea between North Shields, UK and IJmuiden, Netherlands. Two observers searched a 100° area from either side of the ship with a 10° overlap on the trackline to satisfy the assumption that all animals on the trackline are detected while one observer recorded data and the other rested. Effort information including location, vessel speed, course of vessel and environmental conditions (sea state, swell, precipitation, glare and visibility) were recorded every 30 minutes when observers rotated or when conditions changed. Glare was originally recorded as the position of glare relative to the ship."
+7545,"Offline UV Daily - MetopThe offline UV product (OUV) contains the most important quantities of the Sun's radiation that can be harmful to life and materials on the Earth. These quantities include daily doses and maximum dose rates of integrated UV-B and UV-A radiation together with values obtained by different biological weighting functions, solar noon UV index and quality control flags. The product is calculated in a 0.5 degree regular grid and stored in a HDF5 file. The user requirement for the product accuracy is 20%. Several subproducts are included: UV daily dose: erythemal (CIE) weighting (OUV/DOSE_CIE), plant response weighting (OUV/DD_PLANT), DNA damage weighting (OUV/DD_DNA), SCUP-h weighting (OUV/DD_SCUPH), UVA weighting (OUV/DD_UVA), UVB weighting (OUV/DD_UVB). UV daily maximum dose rate: erythemal (CIE) weighting OUV/DSR_CIE, plant response weighting (OUV/DSR_PLANT), DNA damage weighting (OUV/DSR_DNA), SCUP-h weighting (OUV/DSR_SCUPH), UVA weighting (OUV/DSR_UVA), UVB weighting (OUV/DSR_UVB), erythemal (CIE) weighting (OUV/DSR_CIE), plant response weighting (OUV/DSR_PLANT), DNA damage weighting (OUV/DSR_DNA), SCUP-h weighting (OUV/DSR_SCUPH), UVA weighting (OUV/DSR_UVA), UVB weighting (OUV/DSR_UVB), and finally a UV Index (OUV/UVI).",['Environment'],en,"Offline UV Daily - MetopThe offline UV product (OUV) contains the most important quantities of the Sun's radiation that can be harmful to life and materials on the Earth. These quantities include daily doses and maximum dose rates of integrated UV-B and UV-A radiation together with values obtained by different biological weighting functions, solar noon UV index and quality control flags. The product is calculated in a 0.5 degree regular grid and stored in a HDF5 file. The user requirement for the product accuracy is 20%. Several subproducts are included: UV daily dose: erythemal (CIE) weighting (OUV/DOSE_CIE), plant response weighting (OUV/DD_PLANT), DNA damage weighting (OUV/DD_DNA), SCUP-h weighting (OUV/DD_SCUPH), UVA weighting (OUV/DD_UVA), UVB weighting (OUV/DD_UVB). UV daily maximum dose rate: erythemal (CIE) weighting OUV/DSR_CIE, plant response weighting (OUV/DSR_PLANT), DNA damage weighting (OUV/DSR_DNA), SCUP-h weighting (OUV/DSR_SCUPH), UVA weighting (OUV/DSR_UVA), UVB weighting (OUV/DSR_UVB), erythemal (CIE) weighting (OUV/DSR_CIE), plant response weighting (OUV/DSR_PLANT), DNA damage weighting (OUV/DSR_DNA), SCUP-h weighting (OUV/DSR_SCUPH), UVA weighting (OUV/DSR_UVA), UVB weighting (OUV/DSR_UVB), and finally a UV Index (OUV/UVI)."
+28148,"Gender salary breech (not adjusted to individual characteristics) by salary by hour by type of working day and period Spain. MYH (API identifier: 10891)Table of INEBase
+Gender salary breech (not adjusted to individual characteristics) by salary by hour by type of working day and period Spain. Annual. National. Women and Men in Spain",['Society'],en,"Gender salary breech (not adjusted to individual characteristics) by salary by hour by type of working day and period Spain. MYH (API identifier: 10891)Table of INEBase
+Gender salary breech (not adjusted to individual characteristics) by salary by hour by type of working day and period Spain. Annual. National. Women and Men in Spain"
+26704,"Employed by sex and branch of activity. Absolute values and percentages with respects to the total of each sex. EPA (API identifier: 4875)Table of INEBase
+Employed by sex and branch of activity. Absolute values and percentages with respects to the total of each sex. Annual. National. Economically Active Population Survey",['Economy'],en,"Employed by sex and branch of activity. Absolute values and percentages with respects to the total of each sex. EPA (API identifier: 4875)Table of INEBase
+Employed by sex and branch of activity. Absolute values and percentages with respects to the total of each sex. Annual. National. Economically Active Population Survey"
+27962,"Dependency rate per year (API identifier: 36754)Table of INEBase
+Dependency rate per year. Annual. Provinces. Population Projections",['Society'],en,"Dependency rate per year (API identifier: 36754)Table of INEBase
+Dependency rate per year. Annual. Provinces. Population Projections"
+5864,"Infrasound data products of certified IMS stations: mb_lf_2019This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2019, belonging to the data series of the mb_lf data products (0.15-0.35 Hz). The temporal resolution of 15 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series.",['Technology'],en,"Infrasound data products of certified IMS stations: mb_lf_2019This infrasound data set is available as a compressed .zip file and contains the data products of certified IMS infrasound stations (.nc files) of 2019, belonging to the data series of the mb_lf data products (0.15-0.35 Hz). The temporal resolution of 15 min relates to the time steps and window lengths. For referring to this data set, please cite the corresponding data series (DOI) and state the station(s) and the year(s) considered. For further information, please consult the accompanying publication indicated in the description of the data series."
+128,"1GE GeoZS 1M surface Geologic UnitThe harmonized geological map of Slovenia is a simplified version of the 1:250 000 scale Geological Map of Slovenia (Buser, 2009), which was compiled using the Basic Geological Map of Slovenia at a scale of 1: 100.000 (compiled by various authors during the 1960's to 1980's) with the addition of new information by Buser. It is primarily a lithostratigraphic map.The faults were selected for portrayal using two criteria; regional extent and tectonic importance. The map presented here was edited specifically for the purpose of the OneGeology-Europe project by M. Bavec, M. Novak, M. Poljak, M. Trajanova and D. Skaberne.",['Technology'],en,"1GE GeoZS 1M surface Geologic UnitThe harmonized geological map of Slovenia is a simplified version of the 1:250 000 scale Geological Map of Slovenia (Buser, 2009), which was compiled using the Basic Geological Map of Slovenia at a scale of 1: 100.000 (compiled by various authors during the 1960's to 1980's) with the addition of new information by Buser. It is primarily a lithostratigraphic map.The faults were selected for portrayal using two criteria; regional extent and tectonic importance. The map presented here was edited specifically for the purpose of the OneGeology-Europe project by M. Bavec, M. Novak, M. Poljak, M. Trajanova and D. Skaberne."
+14111,"TMAP-SH: Counts of migratory birds (MIGB) - Station: Sylt Rantumbecken (IS46) - Parameter: count of species per volume or areaTMAP parameter group: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The trilateral Monitoring and Assessment Program was established in 1994 and contains 28 chemical, biological, geological and common parameter. Analyses enable an assessment on the trilateral agreed ecological targets. Results are published as Quality status report regularly. Investigations are done with regard to the following issues of concern primarily (Kellermann, A. et al. 1994):
+
+- Effects of climate change on the morphology,
+- Effects of pollutant inputs (nutrients and contaminants) on processes, species and communities,
+- Effects of fisheries on species and communities, 
+- Effects of recreational activities on species,
+- Effects of agricultural utilization on salt marsh communities. TMAP Parameter Gruppe: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+Das 1994 zum Schutz des Wattenmeeres eingeführte Trilateral Monitoring and Assessment Program (TMAP, deutsch: Trilaterales Monitoring und Bewertungsprogramm) umfasst ein Monitoring von insgesamt 28 chemischen, biologischen, geologischen und allgemeinen Parametern. Eine Auswertung der Monitoringdaten ermöglicht eine Beurteilung des Zustandes im Wattenmeer vor dem Hintergrund der trilateral vereinbarten ökologischen Entwicklungsziele. Die Ergebnisse werden etwa alle fünf Jahre im Qualitätszustandsbericht veröffentlicht. Dabei stehen Erhebungen zu folgenden Komplexen im Vordergrund (Kellermann, A. et al. 1994):
+
+- Folgen möglicher Klimaänderungen auf Hydrologie, Morphologie und Habitate des Wattenmeeres,
+- Auswirkungen von Nähr- und Schadstoffeinträgen auf geochemische und biologische Prozesse sowie auf Arten und Lebensgemeinschaften des Wattenmeeres,
+- den Auswirkungen der Muschel- und Garnelenfischerei auf Arten und Lebensgemeinschaften, 
+- Auswirkungen von Freizeitaktivitäten auf Arten (vor allem Vögel und marine Säuger) sowie
+- Auswirkungen landwirtschaftlicher Nutzung auf die Lebensgemeinschaften der Salzwiesen.",['Environment'],de,"TMAP -SH: Counts of Migratory Birds (MIGB) - Station: Sylt Rantumbecken (IS46) - Parameter: Count of Species Per Volume or Areastmap Parameter Group: Counts of Migratory Birds (MigB). Counts of Migratory Birds in the Wadden Sea
+The Trilateral Monitoring and Assessment Program in 1994 and Contains 28 Chemical, Biological, Geological and Common Parameter. Analyses Enable an assessment on the trilateral Agreed Ecological Targets. Results are published as quality status report regularly. Investigations Are Done with Regard to the Following Issues of Concern Primarily (Kellermann, A. et al. 1994):
+
+- Effects of Climate Change on the Morphology,
+- Effects of Pollutant inputs (Nutrients and Contaminsants) on Processes, Species and Communities,
+- Effects of Fisheries on Species and Communities,
+- Effects of Recreational Activities on Species,
+- Effects of Agricultural Utilization on Salt Marsh Communities. TMAP Parameter Group: Counts of Migratory Birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The trilateral monitoring and assessment program (TMAP, German: Trilateral Monitoring and Evaluation Program) introduced in 1994 to protect the Wadden Sea in 1994 includes monitoring of a total of 28 chemical, biological, geological and general parameters. An evaluation of the monitoring data enables the state in the Wadden Sea against the background of the trilaterally agreed ecological development goals. The results are published every five years in the quality status report. The focus is on surveys on the following complexes (Kellermann, A. et al. 1994):
+
+- Consequences of possible climate changes to hydrology, morphology and habitats of the Wadden Sea,
+- Effects of nutrients and pollutants on geochemical and biological processes as well as on the species and communities of the Wadden Sea,
+- the effects of mussel and shrimp fishing in species and communities,
+- Effects of leisure activities on species (especially birds and marine mammals) as well
+- Effects of agricultural use on the communities of the salt marshes."
+4934,"Industrial accident in Toamasina (2013-04-04)<br/> 
+Activation time (UTC): 2013-04-04 09:31:00<br/> 
+Event time (UTC): 2013-04-04 08:00:00<br/> 
+Event type: Industrial accident<br/> 
+<br/> 
+Activation reason: <br/> 
+The Joint UNEP/OCHA Environment Unit (JEU) has been asked by the Resident Coordinator and the National Office for Risk and Disaster Management (BNGRC) to deploy an expert team to get an understanding of the situation on the ground (city and surroundings of Toamasina) as it pertains to chemical / industrial accidents. The JEU has offered to the European Commission to join the mission deploying one EU expert within the EU Civil Protection Mechanism.<br/> 
+<br/> 
+Reference products: 4<br/> 
+Delineation products: 0<br/> 
+Grading products: 0<br/> 
+<br/> 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.<br/>","['Regions', 'Technology']",en,"Industrial accident in Toamasina (2013-04-04)<br/> 
+Activation time (UTC): 2013-04-04 09:31:00<br/> 
+Event time (UTC): 2013-04-04 08:00:00<br/> 
+Event type: Industrial accident<br/> 
+<br/> 
+Activation reason: <br/> 
+The Joint UNEP/OCHA Environment Unit (JEU) has been asked by the Resident Coordinator and the National Office for Risk and Disaster Management (BNGRC) to deploy an expert team to get an understanding of the situation on the ground (city and surroundings of Toamasina) as it pertains to chemical / industrial accidents. The JEU has offered to the European Commission to join the mission deploying one EU expert within the EU Civil Protection Mechanism.<br/> 
+<br/> 
+Reference products: 4<br/> 
+Delineation products: 0<br/> 
+Grading products: 0<br/> 
+<br/> 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.<br/>"
+14254,"National Interoperability Framework Observatory (NIFO) - eGovernment Factsheets 2018The factsheets provide a **comprehensive overview of the e-Government activities** for 34 European countries and European Union.
+
+Each factsheet includes chapters on:
+
+* Country Profile
+* eGovernment History
+* eGovernment Strategy
+* eGovernment Legal Framework
+* eGovernment Actors
+* eGovernment Who's Who
+* eGovernment Infrastructure
+* eGovernment Services for Citizens
+* eGovernment Services for Businesses",['Government'],en,"National Interoperability Framework Observatory (NIFO) - eGovernment Factsheets 2018The factsheets provide a **comprehensive overview of the e-Government activities** for 34 European countries and European Union.
+
+Each factsheet includes chapters on:
+
+* Country Profile
+* eGovernment History
+* eGovernment Strategy
+* eGovernment Legal Framework
+* eGovernment Actors
+* eGovernment Who's Who
+* eGovernment Infrastructure
+* eGovernment Services for Citizens
+* eGovernment Services for Businesses"
+14103,"TMAP-SH: Counts of migratory birds (MIGB) - Station: Große Sandinsel (IS421) - Parameter: count of species per volume or areaTMAP parameter group: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The trilateral Monitoring and Assessment Program was established in 1994 and contains 28 chemical, biological, geological and common parameter. Analyses enable an assessment on the trilateral agreed ecological targets. Results are published as Quality status report regularly. Investigations are done with regard to the following issues of concern primarily (Kellermann, A. et al. 1994):
+
+- Effects of climate change on the morphology,
+- Effects of pollutant inputs (nutrients and contaminants) on processes, species and communities,
+- Effects of fisheries on species and communities, 
+- Effects of recreational activities on species,
+- Effects of agricultural utilization on salt marsh communities. TMAP Parameter Gruppe: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+Das 1994 zum Schutz des Wattenmeeres eingeführte Trilateral Monitoring and Assessment Program (TMAP, deutsch: Trilaterales Monitoring und Bewertungsprogramm) umfasst ein Monitoring von insgesamt 28 chemischen, biologischen, geologischen und allgemeinen Parametern. Eine Auswertung der Monitoringdaten ermöglicht eine Beurteilung des Zustandes im Wattenmeer vor dem Hintergrund der trilateral vereinbarten ökologischen Entwicklungsziele. Die Ergebnisse werden etwa alle fünf Jahre im Qualitätszustandsbericht veröffentlicht. Dabei stehen Erhebungen zu folgenden Komplexen im Vordergrund (Kellermann, A. et al. 1994):
+
+- Folgen möglicher Klimaänderungen auf Hydrologie, Morphologie und Habitate des Wattenmeeres,
+- Auswirkungen von Nähr- und Schadstoffeinträgen auf geochemische und biologische Prozesse sowie auf Arten und Lebensgemeinschaften des Wattenmeeres,
+- den Auswirkungen der Muschel- und Garnelenfischerei auf Arten und Lebensgemeinschaften, 
+- Auswirkungen von Freizeitaktivitäten auf Arten (vor allem Vögel und marine Säuger) sowie
+- Auswirkungen landwirtschaftlicher Nutzung auf die Lebensgemeinschaften der Salzwiesen.",['Environment'],de,"TMAP -SH: Counts of Migratory Birds (MIGB) - Station: Große Sandinsel (IS421) - Parameter: Count of Species Per Volume or Area Parameter Group: Counts of Migratory Birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The Trilateral Monitoring and Assessment Program in 1994 and Contains 28 Chemical, Biological, Geological and Common Parameter. Analyses Enable an assessment on the trilateral Agreed Ecological Targets. Results are published as quality status report regularly. Investigations Are Done with Regard to the Following Issues of Concern Primarily (Kellermann, A. et al. 1994):
+
+- Effects of Climate Change on the Morphology,
+- Effects of Pollutant inputs (Nutrients and Contaminsants) on Processes, Species and Communities,
+- Effects of Fisheries on Species and Communities,
+- Effects of Recreational Activities on Species,
+- Effects of Agricultural Utilization on Salt Marsh Communities. TMAP Parameter Group: Counts of Migratory Birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The trilateral monitoring and assessment program (TMAP, German: Trilateral Monitoring and Evaluation Program) introduced in 1994 to protect the Wadden Sea in 1994 includes monitoring of a total of 28 chemical, biological, geological and general parameters. An evaluation of the monitoring data enables the state in the Wadden Sea against the background of the trilaterally agreed ecological development goals. The results are published every five years in the quality status report. The focus is on surveys on the following complexes (Kellermann, A. et al. 1994):
+
+- Consequences of possible climate changes to hydrology, morphology and habitats of the Wadden Sea,
+- Effects of nutrients and pollutants on geochemical and biological processes as well as on the species and communities of the Wadden Sea,
+- the effects of mussel and shrimp fishing in species and communities,
+- Effects of leisure activities on species (especially birds and marine mammals) as well
+- Effects of agricultural use on the communities of the salt marshes."
+3327,"INSPIRE - Annex III Theme Area Management/Restriction/Regulation Zones and Reporting Units - RiverBasinDistrictThis dataset was reported by the Grand Duchy of Luxembourg under the following obligation: ""Water Framework Directive - River Basin Management Plans - 2016 Reporting"". 
+
+For operational purposes, the following obligations are part on the 2016 WFD RBMP reporting process:
+- ""Water Framework Directive - River Basin Management Plans - 2016 Spatial data""
+- ""Water Framework Directive - River Basin Management Plans - 2016 RBDSUCA XML data""
+- ""Water Framework Directive - River Basin Management Plans - 2016 RBD XML data""
+This reporting obligation is an Eionet core data flow
+
+This dataset is one element of these.",['Environment'],en,"INSPIRE - Annex III Theme Area Management/Restriction/Regulation Zones and Reporting Units - RiverBasinDistrictThis dataset was reported by the Grand Duchy of Luxembourg under the following obligation: ""Water Framework Directive - River Basin Management Plans - 2016 Reporting"". 
+
+For operational purposes, the following obligations are part on the 2016 WFD RBMP reporting process:
+- ""Water Framework Directive - River Basin Management Plans - 2016 Spatial data""
+- ""Water Framework Directive - River Basin Management Plans - 2016 RBDSUCA XML data""
+- ""Water Framework Directive - River Basin Management Plans - 2016 RBD XML data""
+This reporting obligation is an Eionet core data flow
+
+This dataset is one element of these."
+18983,"Titulados en Ciclos Formativos de Grado Superior según el nivel de formación más apropiado para realizar su trabajo en 2019 por sexo y ciclo (API identifier: /t13/p451/2019/p07/l0/04021.px)Table of INEBase
+Titulados en Ciclos Formativos de Grado Superior según el nivel de formación más apropiado para realizar su trabajo en 2019 por sexo y ciclo. National. Survey on the Transition from Education/Training to Labour Market Insertion","['Economy', 'Education']",es,"Titled in higher degree training cycles according to the most appropriate level of training to perform their work in 2019 by sex and cycle (API Identifier: /T13/P451/2019/P07/L0/04021.px)
+Titled in higher degree training cycles according to the most appropriate level of training to perform their work in 2019 by sex and cycle. National Survey on the Transition from Education/Training to Labour Market Insertion"
+26438,"Wage earners by sex and type of contract or labour relationship. Absolute values and percentages with respect to the total of each sex. EPA (API identifier: 4223)Table of INEBase
+Wage earners by sex and type of contract or labour relationship. Absolute values and percentages with respect to the total of each sex. Quarterly. National. Economically Active Population Survey",['Economy'],en,"Wage earners by sex and type of contract or labour relationship. Absolute values and percentages with respect to the total of each sex. EPA (API identifier: 4223)Table of INEBase
+Wage earners by sex and type of contract or labour relationship. Absolute values and percentages with respect to the total of each sex. Quarterly. National. Economically Active Population Survey"
+28012,"By type of operation and geographic area. ICES (API identifier: 10875)Table of INEBase
+By type of operation and geographic area. Quarterly. National. International Trade in Services Survey and Other International Operations",['Economy'],en,"By type of operation and geographic area. ICES (API identifier: 10875)Table of INEBase
+By type of operation and geographic area. Quarterly. National. International Trade in Services Survey and Other International Operations"
+1994,Species and habitats - Limanda limanda (Common Dab) - Nurseries French Coasts - Multi-annual abundance in SeptemberAbundance of several species in coastal nurseries along french coasts.,['Environment'],en,Species and habitats - Limanda limanda (Common Dab) - Nurseries French Coasts - Multi-annual abundance in SeptemberAbundance of several species in coastal nurseries along french coasts.
+23455,"Número de hogares por comunidades y ciudades autónomas según tipo de hogar y superficie útil de la vivienda (API identifier: /t20/p274/serie/prov/p02/l0/02004.px)Table of INEBase
+Número de hogares por comunidades y ciudades autónomas según tipo de hogar y superficie útil de la vivienda. Continuous Household Survey",['Society'],es,"Number of households by autonomous communities and cities according to the type of household and useful surface of the house (API Identifier: /T20/P274/Serie/Prov/P02/L0/02004.px)
+Number of households by autonomous communities and cities according to the type of household and useful surface of the house. Continuous Household Survey"
+5236,"Species and habitats - Clupea harengus - Age 1+ - Recurrence - IBTS Q1 (1980-2010)Species habitat occupation, observed during the first quarter IBTS from 1980 to 2010, has been expressed as rare, occasional, frequent, recurrent depending on density levels and variability over time.",['Environment'],en,"Species and habitats - Clupea harengus - Age 1+ - Recurrence - IBTS Q1 (1980-2010)Species habitat occupation, observed during the first quarter IBTS from 1980 to 2010, has been expressed as rare, occasional, frequent, recurrent depending on density levels and variability over time."
+29097,"Demographic flows of legal units by CNAE division. CODEM (API identifier: 49338)Table of Experimental Statistics.
+Demographic flows of legal units by CNAE division. Quarterly. Autonomous Communities and Cities. Company Demographic Profile",['Economy'],en,"Demographic flows of legal units by CNAE division. CODEM (API identifier: 49338)Table of Experimental Statistics.
+Demographic flows of legal units by CNAE division. Quarterly. Autonomous Communities and Cities. Company Demographic Profile"
+25410,"External migration balance by year, sex, age group and nationality. EM (API identifier: 24306)Table of INEBase
+External migration balance by year, sex, age group and nationality. Annual. Migration Statistic",['Society'],en,"External migration balance by year, sex, age group and nationality. EM (API identifier: 24306)Table of INEBase
+External migration balance by year, sex, age group and nationality. Annual. Migration Statistic"
+2168,A_GBA.tiffactor A of DRASTIC groundwater vulnerability of Traun-Enns-Platte/AUSTRIA,"['Environment', 'Technology']",en,A_GBA.tiffactor A of DRASTIC groundwater vulnerability of Traun-Enns-Platte/AUSTRIA
+12911,"Process steam from natural gas 90 %; heat plant; consumption mix, at power plant; MJ, 90 % efficiency (Location: LU)A detailed heat plant model was used, which combines measured emissions taken from national statistics plus calculated values for not measured emissions of e.g. simple organics or heavy metals. In general, the efficiencies are 85%, 90% and 95%.
+
+Technical Purpose: Provision of 1 MJ of process steam at heat plant for final consumers.
+
+Geographical Representation: LU","['Environment', 'Technology']",en,"Process steam from natural gas 90 %; heat plant; consumption mix, at power plant; MJ, 90 % efficiency (Location: LU)A detailed heat plant model was used, which combines measured emissions taken from national statistics plus calculated values for not measured emissions of e.g. simple organics or heavy metals. In general, the efficiencies are 85%, 90% and 95%.
+
+Technical Purpose: Provision of 1 MJ of process steam at heat plant for final consumers.
+
+Geographical Representation: LU"
+22897,"Population by sex, municipalities and place of birth. (API identifier: /t20/e245/p05/a2019/l0/00048004.px)Table of INEBase
+Population by sex, municipalities and place of birth. Continuous Register Statistics",['Society'],en,"Population by sex, municipalities and place of birth. (API identifier: /t20/e245/p05/a2019/l0/00048004.px)Table of INEBase
+Population by sex, municipalities and place of birth. Continuous Register Statistics"
+9,"CORINE Land Cover changes Iceland 2012 (CHA)Corine Land Cover (CLC) 2012 and CLC change 2006-2012 are two of the datasets produced within the frame of the Initial Operations of the Copernicus programme (the European Earth monitoring programme previously known as GMES) on land monitoring.Corine Land Cover (CLC) provides consistent information on land cover and land cover changes across Europe. This inventory was initiated in 1985 (reference year 1990) and established a time series of land cover information with updates in 2000, 2006 and 2012 being the last one. CLC products are based on photointerpretation of satellite images by national teams of participating countries - the EEA member and cooperating countries  following a standard methodology and nomenclature with the following base parameters: 44 classes in the hierarchical three level Corine nomenclature; minimum mapping unit (MMU) for status layers is 25 hectares; minimum width of linear elements is 100 metres; minimum mapping unit (MMU) for Land Cover Changes (LCC) for the change layers is 5 hectares. The resulting national land cover inventories are further integrated into a seamless land cover map of Europe. Land cover and land use (LCLU) information is important not only for land change research, but also more broadly for the monitoring of environmental change, policy support, the creation of environmental indicators and reporting. CLC datasets provide important datasets supporting the implementation of key priority areas of the Environment Action Programmes of the European Union as protecting ecosystems, halting the loss of biological diversity, tracking the impacts of climate change, assessing developments in agriculture and implementing the EU Water Framework Directive, among others.More about the Corine Land Cover (CLC) and Copernicus land monitoring data in general can be found at http://land.copernicus.eu/.",['Environment'],en,"CORINE Land Cover changes Iceland 2012 (CHA)Corine Land Cover (CLC) 2012 and CLC change 2006-2012 are two of the datasets produced within the frame of the Initial Operations of the Copernicus programme (the European Earth monitoring programme previously known as GMES) on land monitoring.Corine Land Cover (CLC) provides consistent information on land cover and land cover changes across Europe. This inventory was initiated in 1985 (reference year 1990) and established a time series of land cover information with updates in 2000, 2006 and 2012 being the last one. CLC products are based on photointerpretation of satellite images by national teams of participating countries - the EEA member and cooperating countries  following a standard methodology and nomenclature with the following base parameters: 44 classes in the hierarchical three level Corine nomenclature; minimum mapping unit (MMU) for status layers is 25 hectares; minimum width of linear elements is 100 metres; minimum mapping unit (MMU) for Land Cover Changes (LCC) for the change layers is 5 hectares. The resulting national land cover inventories are further integrated into a seamless land cover map of Europe. Land cover and land use (LCLU) information is important not only for land change research, but also more broadly for the monitoring of environmental change, policy support, the creation of environmental indicators and reporting. CLC datasets provide important datasets supporting the implementation of key priority areas of the Environment Action Programmes of the European Union as protecting ecosystems, halting the loss of biological diversity, tracking the impacts of climate change, assessing developments in agriculture and implementing the EU Water Framework Directive, among others.More about the Corine Land Cover (CLC) and Copernicus land monitoring data in general can be found at http://land.copernicus.eu/."
+24115,"Mujeres con hijos biológicos según la situación laboral actual y edad (API identifier: /t20/p317/a2018/def/p03/e02/l0/04010.px)Table of INEBase
+Mujeres con hijos biológicos según la situación laboral actual y edad. Comunidades y Ciudades Autónomas. Encuesta de Fecundidad","['Health', 'Society']",es,"Women with biological children according to the current employment and age situation (API identifier: /t20/p317/a2018/def/p03/e02/l0/04010.px)
+Women with biological children according to the current employment and age situation. Autonomous communities and cities. Fertility survey"
+11434,"Election to the Riksdag - seats won by region and party. Year of election 1973 - 2018Seats in the Swedish parliament by region, party, observations and election year",['Government'],en,"Election to the Riksdag - seats won by region and party. Year of election 1973 - 2018Seats in the Swedish parliament by region, party, observations and election year"
+24621,"Momento último de compra a través de Internet, por motivos particulares, por Comunidades y Ciudades Autónomas (API identifier: /t25/p450/base_2011/a2021/l0/08007.px)Table of INEBase
+Momento último de compra a través de Internet, por motivos particulares, por Comunidades y Ciudades Autónomas. Survey on Equipment and Use of Information and Communication Technologies in Households","['Society', 'Technology']",es,"Last moment of purchase through the Internet, for particular reasons, by autonomous communities and cities (API Identifier: /t25/p450/Base_2011/A2021/L0/08007.px)
+Last moment of purchase through the Internet, for particular reasons, by autonomous communities and cities. Survey on Equipment and Use of Information and Communication Technologies in Households"
+23844,"Mujeres con pareja según el número de hijos, duración de la relación actual y edad (API identifier: /t20/p317/a2018/def/p01/e02/l0/06002.px)Table of INEBase
+Mujeres con pareja según el número de hijos, duración de la relación actual y edad. National. Encuesta de Fecundidad","['Health', 'Society']",es,"Women with a partner according to the number of children, duration of the current relationship and age (API Identifier: /T20/P317/A2018/def/p01/e02/l0/06002.px)
+Women with a partner according to the number of children, duration of the current relationship and age. National Fertility survey"
+11730,"Number of persons with foreign or Swedish background (detailed division) by region, age and sex. Year 2002 - 2021Number of persons by region, foreign/Swedish background, age, sex, observations and year",['Society'],en,"Number of persons with foreign or Swedish background (detailed division) by region, age and sex. Year 2002 - 2021Number of persons by region, foreign/Swedish background, age, sex, observations and year"
+22061,"Huesca: Units by unit type (API identifier: /t20/e244/nucleos/p04/l0/mun22_11.px)Table of INEBase
+Huesca: Units by unit type. National. Population and Housing Censuses","['Regions', 'Society']",en,"Huesca: Units by unit type (API identifier: /t20/e244/nucleos/p04/l0/mun22_11.px)Table of INEBase
+Huesca: Units by unit type. National. Population and Housing Censuses"
+24997,"Main variables by branch of activity (API identifier: /t37/p227/p01/a2016/l0/02001.px)Table of INEBase
+Main variables by branch of activity. National. Statistics on Affiliates of Foreign Companies in Spain",['Economy'],en,"Main variables by branch of activity (API identifier: /t37/p227/p01/a2016/l0/02001.px)Table of INEBase
+Main variables by branch of activity. National. Statistics on Affiliates of Foreign Companies in Spain"
+26484,"Relative sampling errors of employed persons by province and economic sector. EPA (API identifier: 4308)Table of INEBase
+Relative sampling errors of employed persons by province and economic sector. Quarterly. Provinces. Economically Active Population Survey",['Economy'],en,"Relative sampling errors of employed persons by province and economic sector. EPA (API identifier: 4308)Table of INEBase
+Relative sampling errors of employed persons by province and economic sector. Quarterly. Provinces. Economically Active Population Survey"
+12363,"Surveillance of infectious diseases in animals and humans in Sweden, 2006Surveillance of infectious diseases in animals and humans is the annual report describing the surveillance activities carried out in Sweden during the year. The report covers surveillance for important animal diseases and zoonotic agents in humans, food, feed and animals, carried out and compiled by experts from several Swedish governmental agencies, university and private industry with surveillance mandates along the entire food chain, from farm to fork.","['Agriculture', 'Government', 'Health']",en,"Surveillance of infectious diseases in animals and humans in Sweden, 2006Surveillance of infectious diseases in animals and humans is the annual report describing the surveillance activities carried out in Sweden during the year. The report covers surveillance for important animal diseases and zoonotic agents in humans, food, feed and animals, carried out and compiled by experts from several Swedish governmental agencies, university and private industry with surveillance mandates along the entire food chain, from farm to fork."
+9944,"Consumer Price Index (CPI) by product group (COICOP), 1980=100. Month 1980M01 - 2020M12Consumer Price Index by Product group, observations and month",['Economy'],en,"Consumer Price Index (CPI) by product group (COICOP), 1980=100. Month 1980M01 - 2020M12Consumer Price Index by Product group, observations and month"
+12379,"Open data, examinations of phocids in Swedish waters, 2020 and 2021Health status, diseases and cause of stranding or death of seals examined at SVA in 2020 and 2021. Seals were examined together with the Swedish Museum of Natural History. These data support the annual reports from the health- and disease surveillance program for marine mammals set up by the National Veterinary Institute (SVA) under the directive of the Swedish Agency for Marine and Water Management. Please see RELATED RESOURCES for a link to the full report. Cetacean data is provided in their own data file, also available in the related resources.","['Environment', 'Government']",en,"Open data, examinations of phocids in Swedish waters, 2020 and 2021Health status, diseases and cause of stranding or death of seals examined at SVA in 2020 and 2021. Seals were examined together with the Swedish Museum of Natural History. These data support the annual reports from the health- and disease surveillance program for marine mammals set up by the National Veterinary Institute (SVA) under the directive of the Swedish Agency for Marine and Water Management. Please see RELATED RESOURCES for a link to the full report. Cetacean data is provided in their own data file, also available in the related resources."
+14111,"TMAP-SH: Counts of migratory birds (MIGB) - Station: Sylt Rantumbecken (IS46) - Parameter: count of species per volume or areaTMAP parameter group: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The trilateral Monitoring and Assessment Program was established in 1994 and contains 28 chemical, biological, geological and common parameter. Analyses enable an assessment on the trilateral agreed ecological targets. Results are published as Quality status report regularly. Investigations are done with regard to the following issues of concern primarily (Kellermann, A. et al. 1994):
+
+- Effects of climate change on the morphology,
+- Effects of pollutant inputs (nutrients and contaminants) on processes, species and communities,
+- Effects of fisheries on species and communities, 
+- Effects of recreational activities on species,
+- Effects of agricultural utilization on salt marsh communities. TMAP Parameter Gruppe: Counts of migratory birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+Das 1994 zum Schutz des Wattenmeeres eingeführte Trilateral Monitoring and Assessment Program (TMAP, deutsch: Trilaterales Monitoring und Bewertungsprogramm) umfasst ein Monitoring von insgesamt 28 chemischen, biologischen, geologischen und allgemeinen Parametern. Eine Auswertung der Monitoringdaten ermöglicht eine Beurteilung des Zustandes im Wattenmeer vor dem Hintergrund der trilateral vereinbarten ökologischen Entwicklungsziele. Die Ergebnisse werden etwa alle fünf Jahre im Qualitätszustandsbericht veröffentlicht. Dabei stehen Erhebungen zu folgenden Komplexen im Vordergrund (Kellermann, A. et al. 1994):
+
+- Folgen möglicher Klimaänderungen auf Hydrologie, Morphologie und Habitate des Wattenmeeres,
+- Auswirkungen von Nähr- und Schadstoffeinträgen auf geochemische und biologische Prozesse sowie auf Arten und Lebensgemeinschaften des Wattenmeeres,
+- den Auswirkungen der Muschel- und Garnelenfischerei auf Arten und Lebensgemeinschaften, 
+- Auswirkungen von Freizeitaktivitäten auf Arten (vor allem Vögel und marine Säuger) sowie
+- Auswirkungen landwirtschaftlicher Nutzung auf die Lebensgemeinschaften der Salzwiesen.",['Environment'],de,"TMAP -SH: Counts of Migratory Birds (MIGB) - Station: Sylt Rantumbecken (IS46) - Parameter: Count of Species Per Volume or Areastmap Parameter Group: Counts of Migratory Birds (MigB). Counts of Migratory Birds in the Wadden Sea
+The Trilateral Monitoring and Assessment Program in 1994 and Contains 28 Chemical, Biological, Geological and Common Parameter. Analyses Enable an assessment on the trilateral Agreed Ecological Targets. Results are published as quality status report regularly. Investigations Are Done with Regard to the Following Issues of Concern Primarily (Kellermann, A. et al. 1994):
+
+- Effects of Climate Change on the Morphology,
+- Effects of Pollutant inputs (Nutrients and Contaminsants) on Processes, Species and Communities,
+- Effects of Fisheries on Species and Communities,
+- Effects of Recreational Activities on Species,
+- Effects of Agricultural Utilization on Salt Marsh Communities. TMAP Parameter Group: Counts of Migratory Birds (MIGB). Counts of Migratory Birds in the Wadden Sea
+The trilateral monitoring and assessment program (TMAP, German: Trilateral Monitoring and Evaluation Program) introduced in 1994 to protect the Wadden Sea in 1994 includes monitoring of a total of 28 chemical, biological, geological and general parameters. An evaluation of the monitoring data enables the state in the Wadden Sea against the background of the trilaterally agreed ecological development goals. The results are published every five years in the quality status report. The focus is on surveys on the following complexes (Kellermann, A. et al. 1994):
+
+- Consequences of possible climate changes to hydrology, morphology and habitats of the Wadden Sea,
+- Effects of nutrients and pollutants on geochemical and biological processes as well as on the species and communities of the Wadden Sea,
+- the effects of mussel and shrimp fishing in species and communities,
+- Effects of leisure activities on species (especially birds and marine mammals) as well
+- Effects of agricultural use on the communities of the salt marshes."
+13161,"European Landslide Susceptibility Map version 2 (ELSUS v2)The spatial dataset (GIS map) shows landslide susceptibility levels at European scale, derived from heuristic-statistical modelling of main landslide conditioning factors using also landslide location data. It covers all EU member states except Malta, in addition to Albania, Andorra, Bosnia and Herzegovina, Croatia, FYR Macedonia, Iceland, Kosovo, Liechtenstein, Montenegro, Norway, San Marino, Serbia, and Switzerland. This dataset is available together with ancillary spatial datasets",['Technology'],en,"European Landslide Susceptibility Map version 2 (ELSUS v2)The spatial dataset (GIS map) shows landslide susceptibility levels at European scale, derived from heuristic-statistical modelling of main landslide conditioning factors using also landslide location data. It covers all EU member states except Malta, in addition to Albania, Andorra, Bosnia and Herzegovina, Croatia, FYR Macedonia, Iceland, Kosovo, Liechtenstein, Montenegro, Norway, San Marino, Serbia, and Switzerland. This dataset is available together with ancillary spatial datasets"
+1569,"Precipitation - radar 5 minute full volume data Den Helder - archiveArchive of volume data of all radar moments (e.g. radar reflectivity, radial velocity, polarimetric variables, quality indicators) for the radar in Den Helder. Time interval is 5 minutes. Data have been archived in one .tar file per day.",['Environment'],en,"Precipitation - radar 5 minute full volume data Den Helder - archiveArchive of volume data of all radar moments (e.g. radar reflectivity, radial velocity, polarimetric variables, quality indicators) for the radar in Den Helder. Time interval is 5 minutes. Data have been archived in one .tar file per day."
+10700,"European Parliament election - those entitled to vote among Swedish citizens registered in Sweden by sex and level of educational attainment. Election year 2004 - 2019European Parliament election -those entitled to vote by sex, level of education, observations and election year",['Government'],en,"European Parliament election - those entitled to vote among Swedish citizens registered in Sweden by sex and level of educational attainment. Election year 2004 - 2019European Parliament election -those entitled to vote by sex, level of education, observations and election year"
+18259,"Titulados en Bachillerato según el tipo de jornada laboral en el primer empleo por sexo y modalidad (API identifier: /t13/p451/2019/p03/l0/08016.px)Table of INEBase
+Titulados en Bachillerato según el tipo de jornada laboral en el primer empleo por sexo y modalidad. National. Survey on the Transition from Education/Training to Labour Market Insertion","['Economy', 'Education']",es,"Entitled in Baccalaureate according to the type of working day in the first job by sex and modality (API Identifier: /t13/p451/2019/p03/l0/08016.px)
+Entitled in Baccalaureate according to the type of working day in the first job by sex and modality. National Survey on the Transition from Education/Training to Labour Market Insertion"
+9983,"Proportion of employees absent due to sick leave in the business sector, by county. Quarter 2021K3 - 2022K1Proportion of employees absent due to sick leave in the business sector by county, observations and quarter",['Society'],en,"Proportion of employees absent due to sick leave in the business sector, by county. Quarter 2021K3 - 2022K1Proportion of employees absent due to sick leave in the business sector by county, observations and quarter"
+23802,"Mujeres que han tenido su primer hijo biológico antes de lo que consideran ideal, según los años de diferencia y su edad actual (API identifier: /t20/p317/a2018/def/p01/e01/l0/12004.px)Table of INEBase
+Mujeres que han tenido su primer hijo biológico antes de lo que consideran ideal, según los años de diferencia y su edad actual. National. Encuesta de Fecundidad","['Health', 'Society']",es,"Women who have had their first biological child before what they consider ideal, according to the years of difference and their current age (API identifier: /t20/p317/a2018/def/p01/e01/l0/12004.px)
+Women who have had their first biological child before what they consider ideal, according to the years of difference and their current age. National Fertility survey"
+20594,"Functional dependence on the last doctor visited in the last 4 weeks by sex and Autonomous Community. Population aged 15 years old and over that has visited the doctor in the last 4 weeks. (API identifier: /t15/p420/a2019/p02/l0/01044.px)Table of INEBase
+Functional dependence on the last doctor visited in the last 4 weeks by sex and Autonomous Community. Population aged 15 years old and over that has visited the doctor in the last 4 weeks. National. European Health Survey",['Health'],en,"Functional dependence on the last doctor visited in the last 4 weeks by sex and Autonomous Community. Population aged 15 years old and over that has visited the doctor in the last 4 weeks. (API identifier: /t15/p420/a2019/p02/l0/01044.px)Table of INEBase
+Functional dependence on the last doctor visited in the last 4 weeks by sex and Autonomous Community. Population aged 15 years old and over that has visited the doctor in the last 4 weeks. National. European Health Survey"
+15198,"Flash Eurobarometer 287: Influenza H1N1The pandemic H1N1 2009 is a global outbreak of a new strain of influenza A virus subtype H1N1, colloquially known as swine flu, Mexican influenza or influenza A. The Flash survey covered the following issues: The intention to get vaccinated; Awareness ; Worries and beliefs ; Level of information ; Trust in sources of information ; Pandemic H1N1 2009 in the media ; Measures against pandemic H1N1 2009; Opinions about the vaccination against H1N1 influenza
+#####The results by volumes are distributed as follows:
+* Volume A: Countries
+* Volume AA: Groups of countries
+* Volume A' (AP): Trends
+* Volume AA' (AAP): Trends of groups of countries
+* Volume B: EU/socio-demographics
+* Volume B' (BP) : Trends of EU/ socio-demographics 
+* Volume C: Country/socio-demographics
+  ----
+Researchers may also contact GESIS - Leibniz Institute for the Social Sciences: [https://www.gesis.org/eurobarometer](https://www.gesis.org/eurobarometer)",['Government'],en,"Flash Eurobarometer 287: Influenza H1N1The pandemic H1N1 2009 is a global outbreak of a new strain of influenza A virus subtype H1N1, colloquially known as swine flu, Mexican influenza or influenza A. The Flash survey covered the following issues: The intention to get vaccinated; Awareness ; Worries and beliefs ; Level of information ; Trust in sources of information ; Pandemic H1N1 2009 in the media ; Measures against pandemic H1N1 2009; Opinions about the vaccination against H1N1 influenza
+#####The results by volumes are distributed as follows:
+* Volume A: Countries
+* Volume AA: Groups of countries
+* Volume A' (AP): Trends
+* Volume AA' (AAP): Trends of groups of countries
+* Volume B: EU/socio-demographics
+* Volume B' (BP) : Trends of EU/ socio-demographics 
+* Volume C: Country/socio-demographics
+  ----
+Researchers may also contact GESIS - Leibniz Institute for the Social Sciences: [https://www.gesis.org/eurobarometer](https://www.gesis.org/eurobarometer)"
+12934,"Process steam from natural gas; heat plant; consumption mix, at plant; MJ (Location: EE)Good overall data quality. Energy carrier mix information based on official statistical information including import / export. A detailed heat plant model was used, which combine measured emissions plus calculated values for not measured emissions of e.g. organics or heavy metals. Energy carrier extraction and processing data is of sufficient to good (e.g. refinery) data quality. Inventory is partly based on primary industry data, partly on secondary literature data.
+
+Technical Purpose: Process steam (MJ) at heat plant for final consumers.
+
+Geographical Representation: EE","['Environment', 'Technology']",en,"Process steam from natural gas; heat plant; consumption mix, at plant; MJ (Location: EE)Good overall data quality. Energy carrier mix information based on official statistical information including import / export. A detailed heat plant model was used, which combine measured emissions plus calculated values for not measured emissions of e.g. organics or heavy metals. Energy carrier extraction and processing data is of sufficient to good (e.g. refinery) data quality. Inventory is partly based on primary industry data, partly on secondary literature data.
+
+Technical Purpose: Process steam (MJ) at heat plant for final consumers.
+
+Geographical Representation: EE"
+6093,"Identifying the main cross-border obstacles to the Digital Single Market and where they matter most: DSM consumer survey (2015)The survey was based on data collected within the scope of a wider investigation that feeds into one of the Commissions top priorities: to create a borderless Digital Single Market (DSM) across Europe. The Commissions DSM strategy for Europe, announced on May 6, 2015, aims to provide better access to tangible and digital goods and services, to create the right environment for the development and commercial success of digital innovation, and to maximise the growth of the digital economy across the EU28. As support and evidence base, two surveys of online consumers were carried out, looking particularly into their purchase activity for 12 types of tangible goods and offline services (e.g. clothes, travel services), usage of 4 types of online services (e.g. communication services) and access to 8 types of digital content (e.g. e-books). These included a core survey (covering online consumers from all EU28, Norway and Iceland) and a clickstream survey (targeted to online respondents from Belgium and Poland only who had expressed the intention to make at least one immediate online purchase). The main objectives of the study were: 1) to examine the current state of play of cross-border e-commerce in the EU28 and 2) to identify the main drivers and barriers to the proper functioning of a DSM across the EU.  
+http://collections.internetmemory.org/haeu/20171123130248/http://ec.europa.eu/consumers/consumer_evidence/market_studies/obstacles_dsm/index_en.htm
+
+A geo-map depicting the percentage of online shoppers who purchased or accessed products online from another EU country in 2014, together with the top countries of purchase/access, is depicted in the infographic of the 2015 Consumer Conditions Scoreboard. This Scoreboard edition included a dedicated chapter on consumers in the 'Digital Single Market' where, inter alia, the results of the 2105 DSM consumer survey were presented:   
+https://ec.europa.eu/info/files/consumer-conditions-scoreboard-infographic-2015-edition_en","['Education', 'Government', 'Health', 'Society']",en,"Identifying the main cross-border obstacles to the Digital Single Market and where they matter most: DSM consumer survey (2015)The survey was based on data collected within the scope of a wider investigation that feeds into one of the Commissions top priorities: to create a borderless Digital Single Market (DSM) across Europe. The Commissions DSM strategy for Europe, announced on May 6, 2015, aims to provide better access to tangible and digital goods and services, to create the right environment for the development and commercial success of digital innovation, and to maximise the growth of the digital economy across the EU28. As support and evidence base, two surveys of online consumers were carried out, looking particularly into their purchase activity for 12 types of tangible goods and offline services (e.g. clothes, travel services), usage of 4 types of online services (e.g. communication services) and access to 8 types of digital content (e.g. e-books). These included a core survey (covering online consumers from all EU28, Norway and Iceland) and a clickstream survey (targeted to online respondents from Belgium and Poland only who had expressed the intention to make at least one immediate online purchase). The main objectives of the study were: 1) to examine the current state of play of cross-border e-commerce in the EU28 and 2) to identify the main drivers and barriers to the proper functioning of a DSM across the EU.  
+http://collections.internetmemory.org/haeu/20171123130248/http://ec.europa.eu/consumers/consumer_evidence/market_studies/obstacles_dsm/index_en.htm
+
+A geo-map depicting the percentage of online shoppers who purchased or accessed products online from another EU country in 2014, together with the top countries of purchase/access, is depicted in the infographic of the 2015 Consumer Conditions Scoreboard. This Scoreboard edition included a dedicated chapter on consumers in the 'Digital Single Market' where, inter alia, the results of the 2105 DSM consumer survey were presented:   
+https://ec.europa.eu/info/files/consumer-conditions-scoreboard-infographic-2015-edition_en"
+21502,"Population by municipality (with more than 20,000 inhabitants), sex, age (big groups) and nationality (big groups) (API identifier: /t20/e244/avance/p02/l0/3mun15.px)Table of INEBase
+Population by municipality (with more than 20,000 inhabitants), sex, age (big groups) and nationality (big groups). Municipalities with more than 20,000 inhabitants. Population and Housing Censuses","['Regions', 'Society']",en,"Population by municipality (with more than 20,000 inhabitants), sex, age (big groups) and nationality (big groups) (API identifier: /t20/e244/avance/p02/l0/3mun15.px)Table of INEBase
+Population by municipality (with more than 20,000 inhabitants), sex, age (big groups) and nationality (big groups). Municipalities with more than 20,000 inhabitants. Population and Housing Censuses"
+11104,"Gainfully employed nighttime population aged 16+ years, by region, sector, and sex. Year 2018Gainfully employed 16+ years by region, sector, sex, observations and year",['Society'],en,"Gainfully employed nighttime population aged 16+ years, by region, sector, and sex. Year 2018Gainfully employed 16+ years by region, sector, sex, observations and year"
+7192,"Global Sea Ice Concentration Interim Climate Data Record, Release 2 - DMSPThis product is an operational extension of the Sea Ice Concentration Climate Data Record OSI-450 (See resource link below), with a latency of 16 days, starting in 2016. OSI-430-b uses passive microwave data (PMW) from the SSMIS sensors, and the same algorithms as OSI-450. The product includes error-bars for each grid cell (uncertainties).",['Environment'],en,"Global Sea Ice Concentration Interim Climate Data Record, Release 2 - DMSPThis product is an operational extension of the Sea Ice Concentration Climate Data Record OSI-450 (See resource link below), with a latency of 16 days, starting in 2016. OSI-430-b uses passive microwave data (PMW) from the SSMIS sensors, and the same algorithms as OSI-450. The product includes error-bars for each grid cell (uncertainties)."
