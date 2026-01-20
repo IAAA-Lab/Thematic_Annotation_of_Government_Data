@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Automatic Thematic Annotation of Open Government Data"
+message: "If you use this software, please cite it."
+authors:
+  - family-names: Aziz
+    given-names: Abdul
+doi: 10.5281/zenodo.18317554
+version: 1.0.0
+date-released: 2026-01-20
